@@ -2,7 +2,7 @@ import styles from '../styles/Titulo3D.module.scss'
 
 const Titulo3D = () => {
     return (
-        <img src='/ultra-galatico.png' className={styles.titulo}/>
+        <img src='/titulo-3d.png' className={styles.titulo}/>
     )
 
 }
