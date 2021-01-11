@@ -1,0 +1,14 @@
+@import "theme";
+
+.button {
+    background-color: $base-green;
+    padding: 25px 28px;
+    color: #FFFFFF;
+    font-family:  'moon_getheavy', 'Arial Black', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border-radius: 10px;
+    border-width: 0px;
+}

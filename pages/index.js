@@ -1,16 +1,18 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Header from '../components/header.js'
+import MainBanner from '../components/mainBanner.js'
 
 export default function Home() {
-  return (
-      <>
+  return (  
+    <div className={styles.container}>
       <Head>
-        <title>Escola do Viajante Ultra Galático</title>
+      <title>Escola do Viajante Ultra Galático</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Header/>
+    <main className={styles.main}>
+      <Header/>
+      <MainBanner/>
         <section>
 
         </section>
@@ -20,8 +22,9 @@ export default function Home() {
         <section>
 
         </section>
-      </main>
 
+      </main> 
+    
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -32,6 +35,6 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
-    </>
+    </div>
   )
 }

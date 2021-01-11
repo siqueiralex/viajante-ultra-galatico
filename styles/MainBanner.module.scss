@@ -1,0 +1,29 @@
+@import "theme";
+
+.section { 
+    height: 100%;
+    width: 100%;
+    // background-color:$base-white;
+    background-image: url('/mainbannerbg.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: top;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 5rem;
+    overflow: hidden;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
