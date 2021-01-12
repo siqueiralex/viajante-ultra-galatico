@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import Header from '../components/header.js'
 import MainBanner from '../components/mainBanner.js'
+import Video from "../components/video.js"
 
 export default function Home() {
   return (  
@@ -13,17 +14,9 @@ export default function Home() {
     <main className={styles.main}>
       <Header/>
       <MainBanner/>
-        <section>
+    </main> 
+    <Video/>
 
-        </section>
-        <section>
-
-        </section>
-        <section>
-
-        </section>
-
-      </main> 
     
       <footer className={styles.footer}>
         <a
