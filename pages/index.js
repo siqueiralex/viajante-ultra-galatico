@@ -4,6 +4,7 @@ import Header from '../components/header.js'
 import MainBanner from '../components/mainBanner.js'
 import Video from "../components/video.js"
 import FaixaResumo from "../components/faixaResumo.js"
+import OQHavera from "../components/oQHavera.js"
 
 export default function Home() {
   return (  
@@ -18,6 +19,7 @@ export default function Home() {
     </main> 
     <Video/>
     <FaixaResumo/>
+    <OQHavera/>
 
     
       <footer className={styles.footer}>

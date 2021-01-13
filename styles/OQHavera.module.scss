@@ -10,10 +10,8 @@
     align-items: center;
 }
 
-.video {
-    width: 700px;
-    height: 390px;
-    margin-bottom: 20px;
+.bgblue {
+    background-color: $light-blue;
 }
 
 .titulo {
@@ -25,6 +23,20 @@
     letter-spacing: -1px;
 }
 
-.bgblue {
-    background-color: $light-blue;
+.textoWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+}
+
+.texto {
+    width: 50vw;
+    margin-left: 130px;
+    font-family: 'Arial';
+    color: $darker-blue;
+    font-size: 20px;
+    text-align: justify;
 }
