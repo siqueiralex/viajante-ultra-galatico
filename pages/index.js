@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.scss'
 import Header from '../components/header.js'
 import MainBanner from '../components/mainBanner.js'
 import Video from "../components/video.js"
+import FaixaResumo from "../components/faixaResumo.js"
 
 export default function Home() {
   return (  
@@ -16,6 +17,7 @@ export default function Home() {
       <MainBanner/>
     </main> 
     <Video/>
+    <FaixaResumo/>
 
     
       <footer className={styles.footer}>
