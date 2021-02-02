@@ -16,12 +16,6 @@
     height: 390px;
     margin-bottom: 20px;
 }
-@media screen and (max-width: 800px) {
-    .video {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-}
 
 .titulo {
     margin-bottom: 50px;
@@ -36,4 +30,14 @@
 
 .bgblue {
     background-color: $light-blue;
+}
+
+@media screen and (max-width: 800px) {
+    .titulo {
+        font-size: 22px;
+    }
+    .video {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }

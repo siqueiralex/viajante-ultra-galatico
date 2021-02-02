@@ -1,5 +1,12 @@
 @import "theme";
 
+.btnWrapper {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .button {
     background-color: $base-green;
     padding: 18px 24px;
@@ -12,12 +19,13 @@
     border-radius: 10px;
     border-width: 0px;
     cursor: pointer;
-    margin: 30px;
+    // margin: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .button {
         font-size: 16px;
-        padding: 14px;
+        padding: 12px;
+        width: 90% !important;
     }
 }

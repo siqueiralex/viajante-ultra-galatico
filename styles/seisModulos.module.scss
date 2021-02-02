@@ -54,22 +54,31 @@
     margin: 25px 40px;
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 800px) {
+    .section {
+        padding: 5px;
+    }
     .modulo {
-        margin: 10px 20px;
+        margin: 5px auto;
+    }
+    .linha {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
     .moduloTituloRight .moduloTituloLeft {
-        font-size: 19px;
+        font-size: 17px !important;
     }
 
     .moduloTextoRight .moduloTextoLeft {
-        font-size: 16px;
+        font-size: 15px !important;
     }
 
     .image > img {
-        height: 160px;
+        width: 30vw;
     }
-
+    .textWrapper{
+        max-width: 60vw!important;
+    }
   }
 
 .textWrapper {
@@ -157,9 +166,13 @@
     .importante {
         font-family: 'Arial Black', Helvetica, sans-serif;
         color: rgb(179,70,53);
-        font-size: 17px;
-        line-height: 19px;
+        font-size: 18px;
+        line-height: 22px;
         text-align: center;
         width:90%;
+        margin-bottom: 30px;
+    }
+    .section {
+        padding-bottom: 50px;
     }
 }

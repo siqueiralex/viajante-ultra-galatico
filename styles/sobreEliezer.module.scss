@@ -3,7 +3,7 @@
 .section {
     padding: 40px 60px;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -15,7 +15,7 @@
     background-size: cover;
 }
 
-.sobre {
+.sobre { 
  width: 50%;
  min-width: 500px;
  margin: 20px;
@@ -53,4 +53,38 @@
 .imageWrapper > img {
     width: 100%;
     
+}
+@media screen and (max-width: 1000px) {
+    .texto {
+        width: 90vw;
+        margin: 0;
+    }
+    .section {
+        padding: 15px;
+    }
+    .sobre {
+        width: 90vw;
+        min-width: 90vw;
+        padding:2px;
+    }
+
+    .sobre > p {
+        width: 100%;
+    }
+
+    .imageWrapper {
+        width: 90vw;
+        min-width: 90vw;
+    }
+    
+    .imageWrapper > img {
+        width: 90vw;
+        
+    }
+    .titulo {
+        margin-bottom: 40px;
+        font-size: 22px;
+        letter-spacing: -2px;
+        text-align: center;
+    }
 }

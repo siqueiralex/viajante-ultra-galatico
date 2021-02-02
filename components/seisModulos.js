@@ -75,7 +75,7 @@ const SeisModulos = () => {
                     </p>
 
                     <p className={styles.importante}>
-                    IMPORTANTE! ESSA IMERSÃO TEM UM LIMITE DE 300 PARTICIPANTES POR SEMANA E SERÁ FEITA EM SEMANAS LIMITADAS SÓ PELO ANO DE 2021!
+                    IMPORTANTE! ESSA IMERSÃO TEM UM LIMITE DE <strong>300</strong> PARTICIPANTES POR SEMANA E SERÁ FEITA EM SEMANAS LIMITADAS SÓ PELO ANO DE 2021!
                     </p>
                 </div>
 

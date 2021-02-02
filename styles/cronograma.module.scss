@@ -2,7 +2,7 @@
 
 .section {
     padding: 50px 20px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -11,6 +11,7 @@
     background-image: url('/planetasEstrelas.png');
     background-repeat: no-repeat;
     background-size: cover;   
+    overflow: hidden;
 }
 
 .titulo {
@@ -24,7 +25,7 @@
 }
 
 
-.bgblue {
+.bgblue { 
     background-color: $light-blue;
 }
 
@@ -35,7 +36,6 @@
     justify-content: center;
     margin: 20px auto;
     max-width: 960px;
-    overflow:hidden;
     flex-wrap: wrap;
 }
 
@@ -67,7 +67,6 @@
     font-size: 17px;
     line-height: 20px;
     letter-spacing: -1px;
-    // margin-bottom: 5px;
     text-align: right;
 }
 
@@ -75,7 +74,6 @@
     font-family: 'Arial', Helvetica, sans-serif;
     color: $dark-blue;
     font-size: 15px;
-    // letter-spacing: -1px;
     margin-top: 8px;
     text-align: right;
 }
@@ -88,3 +86,33 @@
     height: 120px;
     margin: 4px 6px 4px 20px;
 }
+
+@media screen and (max-width: 800px) {
+    .titulo {
+        font-size: 22px;
+    }
+    .dias {
+        max-width: 99vw;
+        margin: 0;
+    }
+    
+    .dia {
+        max-width: 99vw;
+        margin: 10px 0px;
+    }
+    .section {
+        padding: 30px 0px;
+    }
+
+    .textWrapper {
+        width: 60vw;
+    }
+    .moduloTituloRight .moduloTextoRight {
+        text-align: center !important;
+    } 
+    .imagem {
+        max-width: 40vw;
+    }
+
+}
+

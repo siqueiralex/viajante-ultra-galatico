@@ -4,8 +4,7 @@ import BtnQueroEntrar from '../components/btnqueroentrar.js'
 const Cronograma = () => {
     return (
         <section className={styles.section}>
-            <h1 className={styles.titulo}> CRONOGRAMA <strong className={styles.bgblue}>PODEROSO</strong> DA IMERSÃO<br></br>
-            (Clique no dia para abrir com detalhes)</h1>
+            <h1 className={styles.titulo}> CRONOGRAMA <strong className={styles.bgblue}>PODEROSO</strong> DA IMERSÃO </h1>
 
             <div className={styles.dias}>
                 <div className={styles.dia}>
