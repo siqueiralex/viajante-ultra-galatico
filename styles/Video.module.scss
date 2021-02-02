@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .video {
@@ -15,14 +16,22 @@
     height: 390px;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 800px) {
+    .video {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
 
 .titulo {
     margin-bottom: 50px;
     font-family: 'Arial Black', Helvetica, sans-serif;
     color: $darker-blue;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -1px;
+    text-align: center;
+    line-height: 32px;
 }
 
 .bgblue {

@@ -48,7 +48,7 @@ const Cronograma = () => {
                         <div className={styles.moduloTituloRight}>DINHEIRO E CONCLUSÃO</div>
                         <div className={styles.moduloTextoRight}>Como fazer dinheiro na estrada e conclusão da imersão</div>
                     </div>
-                    <img className={styles.imagem} height="130px" src="dia6.png"></img>
+                    <img className={styles.imagem} height="130px" src="dia7.png"></img>
                 </div>
 
                 <BtnQueroEntrar className={styles.botao}/>

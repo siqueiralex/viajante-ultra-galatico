@@ -49,7 +49,7 @@ const PorqueAgora = () => {
 
                 <div className={styles.motivo}>
                     <div className={styles.imagemWrapper}>
-                        <img src= "/limitado.svg" className={styles.motivoImagem}></img>
+                        <img src= "/relogio2.svg" className={styles.motivoImagem}></img>
                     </div>
                     <h3 className={styles.motivoTitulo}> A VIDA É MUITO CURTA!</h3>
                     <p className={styles.motivoTexto}>
@@ -59,7 +59,7 @@ const PorqueAgora = () => {
 
                 <div className={styles.motivo}>
                     <div className={styles.imagemWrapper}>
-                        <img src= "/limitado.svg" className={styles.motivoImagem}></img>
+                        <img src= "/vidacurta.svg" className={styles.motivoImagem}></img>
                     </div>
                     <h3 className={styles.motivoTitulo}> SE NÃO CONSEGUIR NESSA TURMA, ENTRE NA PRÓXIMA!</h3>
                     <p className={styles.motivoTexto}>

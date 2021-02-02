@@ -14,3 +14,10 @@
     cursor: pointer;
     margin: 30px;
 }
+
+@media screen and (max-width: 700px) {
+    .button {
+        font-size: 16px;
+        padding: 14px;
+    }
+}

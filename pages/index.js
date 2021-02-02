@@ -8,6 +8,7 @@ import OQHavera from "../components/oQHavera.js"
 import SeisModulos from "../components/seisModulos.js"
 import Cronograma from "../components/cronograma.js"
 import PorqueAgora from "../components/porqueAgora.js"
+import SobreEliezer from "../components/sobreEliezer.js"
 
 export default function Home() {
   return (  
@@ -26,6 +27,7 @@ export default function Home() {
     <SeisModulos/>
     <Cronograma/>
     <PorqueAgora/>
+    <SobreEliezer/>
     
       <footer className={styles.footer}>
         <a

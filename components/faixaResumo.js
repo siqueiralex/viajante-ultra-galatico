@@ -22,7 +22,7 @@ const FaixaResumo = () => {
                 <img height="118px" src="/grupo.svg"/>
                 <div className={styles.text}>GRUPO FECHADO COM MEUS QUERIDOS PARTICIPANTES S2</div>
             </div>
-        </div>
+        </div> 
     )
 }
 

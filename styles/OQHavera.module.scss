@@ -11,6 +11,7 @@
     background-image: url('/planetasEstrelas.png');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .bgblue {
@@ -24,6 +25,7 @@
     font-weight: bold;
     font-size: 30px;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 .textoWrapper {
@@ -40,6 +42,19 @@
     margin-left: 130px;
     font-family: 'Arial';
     color: $darker-blue;
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
 }
+
+@media screen and (max-width: 1000px) {
+    .textoWrapper{
+        text-align: center;
+        align-items: center;
+    }
+    .texto {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}
+
