@@ -1,7 +1,7 @@
 @import "theme";
 
 .faixa {
-    background-color: $light-blue;
+    background-color: $lighter-blue;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -47,7 +47,8 @@
 
 @media screen and (max-width: 1200px) {
     .card{
-        font-size: 19px;
+        font-size: 20px;
+        font-weight: bolder;
     }
     .barra{
         display: none;

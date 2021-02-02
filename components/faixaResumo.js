@@ -14,7 +14,7 @@ const FaixaResumo = () => {
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="118px" src="/calendario.svg"/>
+                <img height="118px" src="/calendario.png" />
                 <div className={styles.text}>90 DIAS DE ACESSO A ESSE CONTEÚDO DELICIOSO</div>
             </div>
             <span className={styles.barra}></span>

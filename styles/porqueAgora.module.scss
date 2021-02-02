@@ -41,7 +41,7 @@
 
 .motivo {
     max-width: 270px;
-    margin: 25px 40px;
+    margin: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .motivoTitulo {
@@ -70,20 +70,52 @@
     line-height: 20px;
     letter-spacing: -1px;
     text-align: center;
-    margin: 20px auto 5px auto;
+    margin: 15px auto 5px auto;
 }
 
 .motivoTexto {
     font-family: 'Arial', Helvetica, sans-serif;
     color: $darker-blue;
-    font-size: 15px;
-    // margin-top: 1px;
+    font-size: 18px;
     text-align: center;
     letter-spacing: -1px;
-    line-height: 18px;
+    line-height: 22px;
     width: 90%;
 }
 
 .botao {
     margin: 70px
+}
+
+@media screen and (max-width: 800px) {
+    .section {
+        padding: 30px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .motivo {
+        max-width: 90vw;
+        margin: 30px 10px;
+    }
+
+    .motivoTexto {
+        width: 95%
+    }
+    
+    .imagemWrapper{
+        margin-bottom: 10px;
+        height: auto;
+    }
+
+    .motivoTitulo {
+        font-family: 'Arial Black', Helvetica, sans-serif;
+        color: $darker-blue;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+
 }

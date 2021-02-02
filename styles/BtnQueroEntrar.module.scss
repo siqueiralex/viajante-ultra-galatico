@@ -19,13 +19,13 @@
     border-radius: 10px;
     border-width: 0px;
     cursor: pointer;
-    // margin: 30px;
+
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 570px) {
     .button {
         font-size: 16px;
-        padding: 12px;
-        width: 90% !important;
+        padding: 15px 20px;
+        width: 95% !important;
     }
 }

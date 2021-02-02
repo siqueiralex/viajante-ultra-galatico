@@ -1,7 +1,7 @@
 @import "theme";
 
 .section {
-    background-color:$light-blue;
+    background-color:$lighter-blue;
     display: flex;
     flex:1;
     overflow: hidden;
@@ -53,33 +53,6 @@
     flex-direction: row;
     margin: 25px 40px;
 }
-
-@media screen and (max-width: 800px) {
-    .section {
-        padding: 5px;
-    }
-    .modulo {
-        margin: 5px auto;
-    }
-    .linha {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .moduloTituloRight .moduloTituloLeft {
-        font-size: 17px !important;
-    }
-
-    .moduloTextoRight .moduloTextoLeft {
-        font-size: 15px !important;
-    }
-
-    .image > img {
-        width: 30vw;
-    }
-    .textWrapper{
-        max-width: 60vw!important;
-    }
-  }
 
 .textWrapper {
     width: 270px;
@@ -139,40 +112,65 @@
     width:60%;
     font-family: 'Arial', Helvetica, sans-serif;
     color: $dark-blue;
-    font-size: 20px;
-    letter-spacing: -1px;
+    font-size: 21px;
     line-height: 22px;
     margin-top: 80px;
-    text-align: left;
+    text-align: justify;
 
 }
 
 .importante {
-    font-family: 'Arial Black', Helvetica, sans-serif;
-    color: rgb(179,70,53);
-    font-size: 17px;
-    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 56, 41);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    line-height: 22px;
     text-align: center;
-    width:50%;
+    width:70%;
+    margin-bottom: 30px;
+    background-color:rgb(224, 211, 193);
+    border-radius: 10px;
+
 }
 
 @media screen and (max-width: 800px) {
     .textoFinalAzul {
         width:90%;
         font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 20px !important;
+        line-height: 22px;
+        font-weight: bold;
         color: $dark-blue;
-        font-size: 18px;
+        text-align: center;
     }
     .importante {
-        font-family: 'Arial Black', Helvetica, sans-serif;
-        color: rgb(179,70,53);
         font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        width:90%;
-        margin-bottom: 30px;
+        width: 90%;
     }
+
     .section {
-        padding-bottom: 50px;
+        padding: 20px 5px 50px 5px;
+    }
+    .modulo {
+        margin: 5px auto;
+    }
+    .linha {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .moduloTituloRight, .moduloTituloLeft {
+        font-size: 21px !important;
+    }
+
+    .moduloTextoRight, .moduloTextoLeft {
+        font-size: 18px !important;
+    }
+
+    .image > img {
+        width: 30vw;
+    }
+    .textWrapper{
+        max-width: 60vw!important;
     }
 }

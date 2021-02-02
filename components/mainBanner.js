@@ -1,18 +1,17 @@
 import styles from '../styles/MainBanner.module.scss'
-import Titulo3D from '../components/titulo3d.js'
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
 const MainBanner = () => {
     return(
         <section className={styles.section}>
-            <div className={styles.titulo}>
-                <Titulo3D />
-
+            <div className={styles.logoWrapper}>
+                <img width="520" height="237" src='/titulo-3d.png' className={styles.logo}/>
             </div>
-            <div className={styles.button}>
-                <BtnQueroEntrar/>
+            <div className={styles.btnWrapper}>
+                <BtnQueroEntrar className={styles.button}/>
             </div>
-        </section>)
+        </section>
+        )
 }
 
 export default MainBanner;

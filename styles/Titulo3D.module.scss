@@ -1,11 +1,13 @@
 
-.titulo {
-    max-height: 270px;
-}
+// .titulo {
+//     max-height: 270px;
+// }
 
 @media screen and (max-width: 750px) {
     .titulo {
-        width: 95%;
+        max-height: none;
+        width: 90%;
+        height: auto;
     }
 
 }
