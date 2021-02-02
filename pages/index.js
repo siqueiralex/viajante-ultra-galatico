@@ -5,6 +5,9 @@ import MainBanner from '../components/mainBanner.js'
 import Video from "../components/video.js"
 import FaixaResumo from "../components/faixaResumo.js"
 import OQHavera from "../components/oQHavera.js"
+import SeisModulos from "../components/seisModulos.js"
+import Cronograma from "../components/cronograma.js"
+import PorqueAgora from "../components/porqueAgora.js"
 
 export default function Home() {
   return (  
@@ -20,7 +23,9 @@ export default function Home() {
     <Video/>
     <FaixaResumo/>
     <OQHavera/>
-
+    <SeisModulos/>
+    <Cronograma/>
+    <PorqueAgora/>
     
       <footer className={styles.footer}>
         <a

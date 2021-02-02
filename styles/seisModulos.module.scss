@@ -1,0 +1,129 @@
+@import "theme";
+
+.section {
+    background-color:$light-blue;
+    display: flex;
+    flex:1;
+    overflow: hidden;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.titulo {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: $darker-blue;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-top: 15px;
+}
+
+.modulos {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linha:nth-child(1){
+    margin-left: 60px;
+}
+
+.linha:nth-child(2){
+    margin-right: 60px;
+}
+
+.linha:nth-child(3){
+    margin-left: 60px;
+}
+
+.modulo {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 45px;
+}
+
+.textWrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // align-items: center;
+    padding: 5px 15px;
+}
+
+.moduloTituloRight {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.moduloTextoRight {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 17px;
+    letter-spacing: -1px;
+    margin-top: 8px;
+    text-align: right;
+}
+.moduloTituloLeft {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.moduloTextoLeft {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 17px;
+    letter-spacing: -1px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.textoFinal {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    // padding: 50px;
+}
+
+.textoFinalAzul {
+    width:60%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    margin-top: 80px;
+    text-align: left;
+
+}
+
+.importante {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: rgb(179,70,53);
+    font-size: 17px;
+    line-height: 19px;
+    text-align: center;
+    width:50%;
+}

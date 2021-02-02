@@ -1,0 +1,90 @@
+@import "theme";
+
+.section {
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/planetasEstrelas.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.titulo {
+    margin-bottom: 50px;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: $darker-blue;
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+.bgblue {
+    background-color: $light-blue;
+}
+
+.dias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 960px;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+
+.dia {
+    max-width: 420px;
+    border-radius: 10px;
+    border: 2px solid rgb(187,242,161);
+    margin: 20px 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textWrapper {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 3px;
+    margin-right: 6px;
+}
+
+.moduloTituloRight {
+    width: 95%;
+    align-self: flex-end;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    // margin-bottom: 5px;
+    text-align: right;
+}
+
+.moduloTextoRight {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 15px;
+    // letter-spacing: -1px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.botao {
+    margin: 70px
+}
+
+.imagem {
+    height: 120px;
+    margin: 4px 6px 4px 20px;
+}
