@@ -1,22 +1,5 @@
 @import "theme";
 
-.container {
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; 
-}
-
-.main {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .footer {
   width: 100%;
@@ -28,7 +11,7 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 10px 15px
+  padding: 50px 15px;
 }
 
 .redesSociais {
@@ -36,6 +19,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 200px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 

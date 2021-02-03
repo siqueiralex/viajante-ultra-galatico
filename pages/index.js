@@ -12,22 +12,21 @@ import SobreEliezer from "../components/sobreEliezer.js"
 
 export default function Home() {
   return (  
-    <div className={styles.container}>
+    <>
       <Head>
       <title>Escola do Viajante Ultra Galático</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <main className={styles.main}>
       <Header/>
       <MainBanner/>
-    </main> 
-    <Video/>
-    <FaixaResumo/>
-    <OQHavera/>
-    <SeisModulos/>
-    <Cronograma/>
-    <PorqueAgora/>
-    <SobreEliezer/>
+      <Video/>
+      <FaixaResumo/>
+      <OQHavera/>
+      <SeisModulos/>
+      <Cronograma/>
+      <PorqueAgora/>
+      <SobreEliezer/>
+    
      
       <footer className={styles.footer}>
         <div className={styles.redesSociais}>
@@ -47,6 +46,6 @@ export default function Home() {
         <p styles={styles.copyright}> Copyright © 2020 <a href="https://www.viainfinda.com.br" target="_blank">Via Infinda</a> - Todos os direitos reservados</p>
 
       </footer>
-    </div>
+    </>
   )
 }
