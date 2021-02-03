@@ -14,20 +14,7 @@ const Cronograma = () => {
                     </div>
                     <img className={styles.imagem} height="130px" src="dia1.png"></img>
                 </div>
-                <div className={styles.dia}>
-                    <div className={styles.textWrapper}>
-                        <div className={styles.moduloTituloRight}>MOCHILÃO NORMAL</div>
-                        <div className={styles.moduloTextoRight}>Mochilão, voluntariado, técnicas para iajar barato e com muito conforto</div>
-                    </div>
-                    <img className={styles.imagem} height="130px" src="dia2.png"></img>
-                </div>
-                <div className={styles.dia}>
-                    <div className={styles.textWrapper}>
-                        <div className={styles.moduloTituloRight}>VIDA NO CARRO</div>
-                        <div className={styles.moduloTextoRight}>Desde como montar seu carro do zero até a vida minimalista na estrada</div>
-                    </div>
-                    <img className={styles.imagem} height="130px" src="dia3.png"></img>
-                </div>
+
                 <div className={styles.dia}>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>VIDA NA VAN</div>
@@ -35,6 +22,15 @@ const Cronograma = () => {
                     </div>
                     <img className={styles.imagem} height="130px" src="dia5.png"></img>
                 </div>
+
+                <div className={styles.dia}>
+                    <div className={styles.textWrapper}>
+                        <div className={styles.moduloTituloRight}>MOCHILÃO NORMAL</div>
+                        <div className={styles.moduloTextoRight}>Mochilão, voluntariado, técnicas para iajar barato e com muito conforto</div>
+                    </div>
+                    <img className={styles.imagem} height="130px" src="dia2.png"></img>
+                </div>
+
                 <div className={styles.dia}>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>EUROPA E AMÉRICA DO SUL</div>
@@ -42,6 +38,17 @@ const Cronograma = () => {
                     </div>
                     <img className={styles.imagem} height="130px" src="dia6.png"></img>
                 </div>
+
+
+                <div className={styles.dia}>
+                    <div className={styles.textWrapper}>
+                        <div className={styles.moduloTituloRight}>VIDA NO CARRO</div>
+                        <div className={styles.moduloTextoRight}>Desde como montar seu carro do zero até a vida minimalista na estrada</div>
+                    </div>
+                    <img className={styles.imagem} height="130px" src="dia3.png"></img>
+                </div>
+                
+
                 <div className={styles.dia}>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>DINHEIRO E CONCLUSÃO</div>
