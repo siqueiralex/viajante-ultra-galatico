@@ -50,9 +50,9 @@ const Cronograma = () => {
                     <img className={styles.imagem} height="130px" src="dia7.png"></img>
                 </div>
 
-                <BtnQueroEntrar className={styles.botao}/>
 
             </div>
+                <BtnQueroEntrar className={styles.botao}/>
         </section>
     )
 }
