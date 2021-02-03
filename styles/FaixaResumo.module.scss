@@ -18,16 +18,12 @@
     flex:1;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 25px;
-    font-family: 'Arial Black', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -1px;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
     color: $alice-blue;
     text-align: center;
-    min-width: 270px;
-    max-width: 400px
+    max-width: 380px
 }
 
 .card > img {
@@ -41,21 +37,45 @@
     margin-top: 10px;
     height: 13rem;
     min-width: 1px;
-    position:relative;
-    z-index: 255;
     background-color: $alice-blue;
-}
-
-@media screen and (max-width: 1200px) {
-    .card{
-        font-size: 20px;
-        font-weight: bolder;
-    }
-    .barra{
-        display: none;
-    }
 }
 
 .text{
     margin-top: 15px;
+
+}
+
+@media screen and (max-width: 800px) {
+        .faixa {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0;
+        }
+        .card {
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0px;
+            width: 80vw;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        .text{
+            margin: 0 0 0 20px;
+            max-width: 130px;
+            max-height: 130px;
+        }
+        .barra {
+            width: 50vw;
+            max-width: 100vw;
+            height: 1px;
+        }
+
+        .card > img {
+            max-width: 110px;
+            max-height: 110px;
+            margin-right: 20px;
+        }
 }

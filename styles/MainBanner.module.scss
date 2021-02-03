@@ -1,7 +1,7 @@
 @import "theme";
 
 .section { 
-    min-height: 100vh;
+    min-height: 92%;
     width: 100vw;
 
     // background-image: url('/mainbannerbg.jpg');
@@ -37,8 +37,9 @@
     right: 0;
     bottom: 0;
     display: block;
-    background: url('/exemplo-landscape.jpg');
-    background-size: cover;
+    background: url('/mainbannerbg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position-y: center;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
