@@ -4,23 +4,23 @@ const FaixaResumo = () => {
     return(
         <div className={styles.faixa}>
             <div className={styles.card}>
-                <img height="100px" src="/relogio.svg"/>
+                <img height="95px" src="/relogio.svg"/>
                 <div className={styles.text}> 10H DE CONTEÚDO ÉPICO E EXCLUSIVO</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="95px" src="/livro.svg"/>
-                <div className={styles.text}> 1 EBOOK MARAVILHOSO PARA OS PRIMEIROS 100 COMPRADORES</div>
+                <img height="90px" src="/telefone.svg"/>
+                <div className={styles.text}> LIGAREI PESSOALMENTE PARA 70 PARTICIPANTES PARA TIRAR DÚVIDAS</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="95px" src="/calendario.png" />
+                <img height="90px" src="/calendario.png" />
                 <div className={styles.text}>90 DIAS DE ACESSO A ESSE CONTEÚDO DELICIOSO</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
                 <img height="95px" src="/grupo.svg"/>
-                <div className={styles.text}>GRUPO FECHADO COM MEUS QUERIDOS PARTICIPANTES S2</div>
+                <div className={styles.text}>CLOSE FRIENDS COM MEUS QUERIDOS PARTICIPANTES S2</div>
             </div>
         </div> 
     )
