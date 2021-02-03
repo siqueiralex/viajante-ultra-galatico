@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <main className={styles.main}>
-      <Header/>
+      {/* <Header/> */}
       <MainBanner/>
     </main> 
     <Video/>
@@ -30,6 +30,22 @@ export default function Home() {
     <SobreEliezer/>
      
       <footer className={styles.footer}>
+        <div className={styles.redesSociais}>
+          <a href="https://pt-br.facebook.com/viaInfinda/" target="_blank">
+            <img width="40" height="40" src="facebook.svg"></img>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCkIEY6rUSPy4qQjLqBBLUSg" target="_blank">
+            <img width="40" height="40" src="youtube.svg"></img>
+          </a>
+
+          <a href="https://www.instagram.com/viainfinda/" target="_blank">
+            <img width="40" height="40" src="instagram.svg"></img>
+          </a>
+        </div>
+
+        <p styles={styles.copyright}> Copyright © 2020 <a href="https://www.viainfinda.com.br" target="_blank">Via Infinda</a> - Todos os direitos reservados</p>
+
       </footer>
     </div>
   )

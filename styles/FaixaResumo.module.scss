@@ -1,7 +1,7 @@
 @import "theme";
 
 .faixa {
-    background-color: $lighter-blue;
+    background-color: $dark-blue;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -23,8 +23,8 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 120%;
-    letter-spacing: -2px;
-    color: $dark-blue;
+    letter-spacing: -1px;
+    color: $alice-blue;
     text-align: center;
     min-width: 270px;
     max-width: 400px
@@ -33,6 +33,7 @@
 .card > img {
     align-self: center;
     max-width: 150px;
+
 }
 
 .barra {
@@ -42,7 +43,7 @@
     min-width: 1px;
     position:relative;
     z-index: 255;
-    background-color: $dark-blue;
+    background-color: $alice-blue;
 }
 
 @media screen and (max-width: 1200px) {
