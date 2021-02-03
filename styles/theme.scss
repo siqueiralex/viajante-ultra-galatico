@@ -36,3 +36,11 @@ $lighter-blue: rgb(142,204,241);
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'arial';
+    src: url('Arial-BoldMT.woff2') format('woff2'),
+         url('Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
