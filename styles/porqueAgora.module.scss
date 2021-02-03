@@ -41,7 +41,7 @@
 
 .motivo {
     max-width: 270px;
-    margin: 30px 20px;
+    margin: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,8 +49,8 @@
 }
 
 .motivoImagem {
-    max-height: 190px;
-    max-width: 210px;
+    max-height: 150px;
+    max-width: 170px;
 }
 
 .imagemWrapper {
@@ -59,7 +59,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .motivoTitulo {
