@@ -51,7 +51,7 @@
 .modulo {
     display: flex;
     flex-direction: row;
-    margin: 25px 40px;
+    margin: 5px 40px 25px 5px;
 }
 
 .textWrapper {
@@ -131,6 +131,25 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+    .modulo {
+        margin: 5px;
+    }
+
+    .linha {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .section {
+        padding: 20px 5px 50px 5px;
+    }
+    .moduloTituloRight, .moduloTituloLeft {
+        font-size: 21px !important;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     .textoFinalAzul {
         width:90%;
@@ -141,16 +160,10 @@
         width: 90%;
     }
 
-    .section {
-        padding: 20px 5px 50px 5px;
-    }
     .modulo {
         margin: 5px auto;
     }
-    .linha {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+    
     .moduloTituloRight, .moduloTituloLeft {
         font-size: 21px !important;
     }
