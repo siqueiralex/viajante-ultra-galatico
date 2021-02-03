@@ -1,7 +1,7 @@
 @import "theme";
 
 .section {
-    padding: 50px 20px;
+    padding: 30px 20px 80px 20px;
     width: 100%;
     display: flex;
     flex: 1;
@@ -18,11 +18,11 @@
 }
 
 .titulo {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-family: 'Arial Black', Helvetica, sans-serif;
     color: $darker-blue;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -1px;
     text-align: center;
 }
@@ -33,18 +33,18 @@
     align-items: flex-start;
     width: 100%;
     text-align: left;
-    padding: 30px;
+    padding: 10px 50px;
 }
 
 .texto {
-    width: 50vw;
+    width: 40vw;
     margin-left: 130px;
     font-family: 'Arial', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: $darker-blue;
     text-align: justify;    
-    line-height: 20px;
-    margin-top: 8px;
+    line-height: 24px;
+    // margin-top: 5px;
     text-align: justify;
 }
 
