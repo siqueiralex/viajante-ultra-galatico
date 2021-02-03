@@ -84,6 +84,12 @@
     margin: 4px 6px 4px 20px;
 }
 
+@media screen and (max-width: 1000px) {
+    .dia {
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 800px) {
 
     .dias :nth-child(1) { order: 1; }
@@ -106,7 +112,7 @@
         margin: 10px 0px;
     }
     .section {
-        padding: 30px 0px;
+        padding: 30px 5px;
     }
 
     .textWrapper {

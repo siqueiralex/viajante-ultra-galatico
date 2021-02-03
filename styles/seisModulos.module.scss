@@ -32,7 +32,7 @@
 .linha {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -51,6 +51,7 @@
 .modulo {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin: 5px 40px 25px 5px;
 }
 
