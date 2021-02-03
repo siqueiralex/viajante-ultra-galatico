@@ -15,5 +15,11 @@ $lighter-blue: rgb(142,204,241);
          url('moon_get-heavy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Arial Black';
+    src: url('arial-black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
