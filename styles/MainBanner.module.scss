@@ -10,42 +10,50 @@
     justify-content: space-evenly;
     box-sizing: border-box;    
     position: relative;
-    transform-style: inherit;
+    // transform-style: inherit;
 
-}
-
-
-.section,
-.section:before {
-    background: 50% 50% / cover;
-}
-
-.section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    background: url('/mainbannerbg.jpg');
+    background: url('/fotobg.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: center;
-    transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
-    min-height: 100vh;
+
+
+
 }
+
+
+// .section,
+// .section:before {
+//     background: 50% 50% / cover;
+// }
+
+// .section::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     display: block;
+//     background: url('/fotobg.png');
+//     background-size:cover;
+//     background-repeat: no-repeat;
+//     background-position-y: center;
+//     transform-origin: center center 0;
+//     transform: translateZ(-1px) scale(2);
+//     z-index: -1;
+//     min-height: 100vh;
+// }
 
 .logoWrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .logo {
     margin-right: 50px;
+    margin-bottom: 100px;
 }
 
 
