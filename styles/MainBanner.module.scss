@@ -1,7 +1,7 @@
 @import "theme";
 
 .section { 
-    min-height: 96vh;
+    min-height: 97vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,10 @@
     }
     .logo {
         margin: 50px auto;
+    }
+
+    .section {
+        min-height: 75vh;
     }
 }
 
