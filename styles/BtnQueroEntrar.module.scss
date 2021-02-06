@@ -9,11 +9,11 @@
 
 .button {
     background-color: $base-green;
-    padding: 18px 24px;
+    padding: 16px 22px;
     color: #FFFFFF;
     font-family:  'moon_getheavy', 'Arial Black', Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     letter-spacing: 2px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     border-radius: 10px;
@@ -22,7 +22,7 @@
 
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 620px) {
     .button {
         font-size: 16px;
         padding: 15px 20px;

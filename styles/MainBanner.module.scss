@@ -8,6 +8,7 @@
     overflow: hidden;
     padding: 20px;
     justify-content: space-between;
+    padding: 30px 10px 50px 10px;
     box-sizing: border-box;    
     position: relative;
     // transform-style: inherit;
@@ -63,20 +64,21 @@
         justify-content: center !important;
     }
     .logo {
-        margin: 50px auto;
+        margin: 0 auto;
     }
 
     .section {
-        min-height: 75vh;
+        min-height: 80vh;
+        justify-content: space-between;
     }
 }
 
-@media screen and (max-width: 750px) {
-    .logo {
-        width: 561px;
-        height: 266px;
-    }
-}
+// @media screen and (max-width: 750px) {
+//     .logo {
+//         width: 561px;
+//         height: 266px;
+//     }
+// }
 
 
 @media screen and (max-width: 620px) {
