@@ -1,13 +1,13 @@
 @import "theme";
 
 .section { 
-    min-height: 100vh;
+    min-height: 96vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     padding: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     box-sizing: border-box;    
     position: relative;
     // transform-style: inherit;
@@ -16,6 +16,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position-y: center;
+    background-position-x: center;
 
 
 
@@ -53,7 +54,7 @@
 
 .logo {
     margin-right: 50px;
-    margin-bottom: 100px;
+    margin-top: 80px;
 }
 
 
@@ -62,7 +63,7 @@
         justify-content: center !important;
     }
     .logo {
-        margin: 0;
+        margin: 50px auto;
     }
 }
 
