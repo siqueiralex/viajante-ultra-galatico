@@ -1,0 +1,23 @@
+@import "theme";
+
+.cronometroWrapper {
+    width: 100%;
+    padding: 0 auto;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.cronometro {
+    width: 300px;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'arial';
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px 80px 0 0;
+}

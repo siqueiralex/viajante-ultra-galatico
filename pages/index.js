@@ -10,7 +10,9 @@ import Cronograma from "../components/cronograma.js"
 import PorqueAgora from "../components/porqueAgora.js"
 import SobreEliezer from "../components/sobreEliezer.js"
 
+
 export default function Home() {
+
   return (  
     <>
       <Head>

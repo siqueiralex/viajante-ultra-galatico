@@ -1,20 +1,61 @@
 import styles from '../styles/MainBanner.module.scss'
-import BtnQueroEntrar from '../components/btnqueroentrar.js'
+import BtnQueroEntrar from './btnqueroentrar.js'
+import Cronometro from './cronometro.js'
+import { useEffect, useState } from "react";  
+
+// DIA DA ABERTURA MM/DD/YYY HH:MM:SS
+const diaAbertura = +new Date(`02/07/2021 14:00:00`)
+
+const calculateTimeLeft = () => {  
+    const difference = diaAbertura - +new Date();
+    let timeLeft = {aberto:true};
+    if (difference>0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+        aberto: false
+      };
+    }
+
+    return timeLeft;
+} 
+
+
 
 const MainBanner = () => {
+
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+      
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          setTimeLeft(calculateTimeLeft());
+        }, 1000);
+        return () => clearTimeout(timer);
+      });
+
+
     return(
         <section className={styles.section}>
+            
             <div className={styles.logoWrapper}>
                 <img width="500" height="228" src='/titulo-3d.png' className={styles.logo}/>
             </div>
             <div className={styles.ImagemWrapper}>
-                <img width="434" height="480" src='/ImagemEliezer.png' className={styles.Imagem}/>
+                <img width="521" height="576" src='/ImagemEliezer.png' className={styles.Imagem}/>
             </div>    
-            
-            <BtnQueroEntrar className={styles.button}/>
+            {timeLeft.aberto
+             ? <BtnQueroEntrar></BtnQueroEntrar>
+             : <Cronometro timeLeft={timeLeft}></Cronometro>
+            }
+
             
         </section>
         )
 }
+
+
+
 
 export default MainBanner;
