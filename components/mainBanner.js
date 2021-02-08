@@ -8,7 +8,13 @@ const diaAbertura = +new Date(`02/07/2021 14:00:00`)
 
 const calculateTimeLeft = () => {  
     const difference = diaAbertura - +new Date();
-    let timeLeft = {aberto:true};
+    let timeLeft = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      aberto:true
+    };
     if (difference>0) {
       timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -43,11 +49,14 @@ const MainBanner = () => {
                 <img width="500" height="228" src='/titulo-3d.png' className={styles.logo}/>
             </div>
             <div className={styles.ImagemWrapper}>
-                <img width="521" height="576" src='/ImagemEliezer.png' className={styles.Imagem}/>
+                <img width="573" height="628" src='/ImagemEliezer.png' className={styles.Imagem}/>
             </div>    
-            {timeLeft.aberto
-             ? <BtnQueroEntrar></BtnQueroEntrar>
-             : <Cronometro timeLeft={timeLeft}></Cronometro>
+            <div className={styles.cronometroWrapper}>
+                <Cronometro className={styles.cronometro} timeLeft={timeLeft}></Cronometro>
+            </div>
+
+            {timeLeft.aberto &&
+              <BtnQueroEntrar></BtnQueroEntrar>
             }
 
             
