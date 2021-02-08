@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 150px;
   border-top: 1px solid #eaeaea;
-  background-color: $alice-blue;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,3 +23,6 @@
   margin: 20px;
 }
 
+.copyright {
+  color: $dark-blue;
+}
