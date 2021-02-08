@@ -67,7 +67,7 @@ const Cronograma = () => {
                     <div className={styles.offline}>offline</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>AULAS GRAVADAS</div>
-                        <div className={styles.moduloTextoRight}>Sim! Além de encontros ao vivo teremos conteúdo gravado :D. Dia offline onde disponibilizarei todas as aulas gravadas da imersão. </div>
+                        <div className={styles.moduloTextoRight}>Além de encontros ao vivo teremos conteúdo gravado :D Nesse dia disponibilizarei todas as aulas gravadas da imersão. </div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia4.png"></img>
                 </div>
