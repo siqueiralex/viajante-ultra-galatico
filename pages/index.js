@@ -9,14 +9,15 @@ import SeisModulos from "../components/seisModulos.js"
 import Cronograma from "../components/cronograma.js"
 import PorqueAgora from "../components/porqueAgora.js"
 import SobreEliezer from "../components/sobreEliezer.js"
-
+import QuantoCusta from "../components/quantoCusta.js"
+import FAQ from "../components/FAQ.js"
 
 export default function Home() {
 
   return (  
     <>
       <Head>
-      <title>Escola do Viajante Ultra Galático</title>
+      <title>Escola do Viajante Galático</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
@@ -28,6 +29,8 @@ export default function Home() {
       <Cronograma/>
       <PorqueAgora/>
       <SobreEliezer/>
+      <QuantoCusta/>
+      <FAQ/>
     
      
       <footer className={styles.footer}>

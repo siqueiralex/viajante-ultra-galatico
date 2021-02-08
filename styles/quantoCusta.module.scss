@@ -1,0 +1,90 @@
+@import "theme";
+
+.section {
+    background-color: $light-blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    margin-bottom: 50px;
+    font-family: 'arial_black', 'Arial Black', Helvetica, sans-serif;
+    color: $alice-blue;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.boxWrapper {
+    background-color: $alice-blue;
+    padding: 30px;
+    width: 370px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $base-blue;
+    font-size: 30px;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+}
+
+.boxBigTitle {
+    font-size: 44px;
+    
+}
+
+.boxGreenTitle{
+    font-size: 67px;
+    line-height: 50px;
+    letter-spacing: -3px;
+    color:$base-green;
+}
+
+.boxSubtitle {
+    margin: 8px auto;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.lista{
+    margin-left: 4px; 
+    color: $dark-blue;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.lista > li {
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 430px) {
+
+    .section{
+        padding: 10px;
+    }
+    .boxWrapper {
+        width: 95%;
+        margin: 10px auto;
+    }   
+
+    .boxBigTitle {
+        font-size: 35px;
+    }
+
+    .boxGreenTitle{
+        font-size: 52px;
+    }
+
+    .boxSubtitle{
+        font-size: 13px;
+    }
+
+}

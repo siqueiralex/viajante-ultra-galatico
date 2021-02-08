@@ -1,15 +1,137 @@
 @import "theme";
 
 .cronometro {
-    height: 500px;
-    width: 350px;
-    font-size: 22px;
-    line-height: 16px;
+    width: 360px;
+    line-height: 28px;
     font-family: 'arial';
-    color: white;
-    background-color: black;
-    padding: 10px 25px;
+    color: $alice-blue;
+    background-color: rgb(21,17,13);
+    padding: 30px 40px;
     text-align: center;
-    border-radius: 15px;
-    margin: 40px 80px 0 0;
+    border-radius: 20px;
+    border: 1px rgba($color: rgb(100,100,100), $alpha: 0.4) solid;
+}
+
+.countdownWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cronField{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cronNumero {
+    font-family: 'arial_black';
+    font-size: 40px;
+    margin: 0 auto;
+    width: 70px;
+    letter-spacing: 0px;
+    color: rgb(255, 217, 0);
+}
+
+.cronLabel > p {
+    color: rgb(21,17,13);
+    width: 50px;
+    padding: 1px;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+
+
+.paraProxima{
+    font-size: 19px;
+    line-height: 20px;
+    margin: 5px auto 15px auto;
+}
+
+
+.informeDados{
+
+    // background-color: yellow;
+    color: rgb(124,124,124);
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 17px;
+    // margin: 5px auto;
+    line-height: 20px;
+
+}
+
+
+.formulario {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:stretch;
+    color: rgb(124, 124, 124);
+    text-align: center;
+}
+
+.nomeField, .emailField {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 75px;
+    width: 100%;
+    margin: 8px auto;
+    text-align: left;
+}
+
+
+.emailInput, .nomeInput {
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: rgb(87, 87, 87);
+}
+
+.concordoField {
+    // background-color: yellow;
+    margin-top:10px;
+    font-size: 15px;
+    width: 100%;
+    line-height: 20px;
+
+}
+
+.concordoInput {
+    margin-right: 8px;
+}
+
+.formButton{
+    border-radius: 20px;
+    border-width: 0px;
+    min-width: 180px;
+    padding: 15px 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 15px auto;
+    background-color:$base-blue;
+    color: $alice-blue;
+    cursor: pointer;
+
+}
+
+.notSpam {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0px;
 }

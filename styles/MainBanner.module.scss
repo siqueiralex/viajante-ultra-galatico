@@ -1,14 +1,14 @@
 @import "theme";
 
 .section { 
-    min-height: 70vh;
+    height: 560px;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: hidden;
     padding: 20px;
     justify-content: space-between;
-    padding: 30px 10px 50px 10px;
+    padding: 0px;
     box-sizing: border-box;    
     position: relative;
     // transform-style: inherit;
@@ -17,78 +17,127 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 18% 90%;
+    position: relative;
+}
+.centerWrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    height: 100%;
 }
 
 .ImagemWrapper {
     position: absolute;
-    bottom: -0.5%;
+    top: 110px;
+    margin-bottom: 0;
     z-index: 1;
-    width: 100vw;
-    text-align: center;
+    left: 370px;
+    // width: 100vw;
+    // text-align: center;
 }
 
-.Imagem {
-    margin: 0 auto;
-}
-
-
-.logoWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 3;
-    height: 100% !important;
-}
 
 .logo {
-    margin-left: 50px;
-    margin-top: 30px;
+    z-index: 4;
+    position: absolute;
+    top: 140px;
+    // left: 64px;
+    left: 710px;
 }
 
 .cronometroWrapper {
     z-index: 3;
     position: absolute;
-    right:0;
-    bottom: 0;
-
-
-
-    // padding: 0 auto;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-end;
+    // left: 876px;
+    left:0px;
+    top: 45px;
 }
 
-@media screen and (max-width: 1000px) {
-    .logoWrapper {
-        justify-content: center !important;
+.textoImersao{
+    position: absolute;
+    top: 350px;
+    left: 690px;
+    width: 400px;
+    font-family: 'arial_black','Arial Black', Helvetica, sans-serif;
+    color: $alice-blue;
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.bgblue {
+    background-color: $light-blue;
+}
+
+
+@media screen and (max-width: 950px) {
+
+
+    .section{
+        padding: 5px;
+        height: 1300px;
+        background-position: 75% 90%;
     }
-    .logo {
+
+    .centerWrapper{
+        position: inherit;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ImagemWrapper {
+
+        top: 10px;
+        left: auto;
+        z-index: 1;
+        
+        width: 100vw;
+        text-align: center;
+    }
+
+    .ImagemWrapper > img {
+        width: 300px;
+        height: 360px;
+    }
+
+    .cronometroWrapper{
+        top: 350px;
+        left: auto;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        
+    }
+    .cronometroWrapper > div {
         margin: 0 auto;
+        width: 92vw;
     }
 
-    .section {
-        justify-content: space-between;
-    }
-
-    .Imagem {
-        width: 400px;
-        height: 442px;
-
-    }
-}
-
-// @media screen and (max-width: 750px) {
-//     .logo {
-//         width: 561px;
-//         height: 266px;
-//     }
-// }
-
-
-@media screen and (max-width: 620px) {
     .logo {
-        width: 79vw;
-        height: 37vw;
+        z-index: 4;
+        position: absolute;
+        top: 930px;
+        left: auto;
+        margin: 0 auto;
+        width: 342px;
     }
+
+    .textoImersao{
+        position: absolute;
+        top: 1120px;
+        left: auto;
+        // background-color: rgba(21,17,13,.5);
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 24px;
+        line-height: 32px;
+        width: 320px;
+    }
+
+
 }
