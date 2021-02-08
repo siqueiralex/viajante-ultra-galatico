@@ -40,6 +40,7 @@
 }
 
 .dia {
+    position: relative;
     max-width: 420px;
     border-radius: 10px;
     border: 2px solid rgb(187,242,161);
@@ -89,15 +90,17 @@
         margin: 5px;
     }
 }
+@media screen and (max-width: 900px) {
+    .dias :nth-child(1) { order: 1; }
+    .dias :nth-child(2) { order: 5; }
+    .dias :nth-child(3) { order: 2; }
+    .dias :nth-child(4) { order: 6; }
+    .dias :nth-child(5) { order: 3; }
+    .dias :nth-child(6) { order: 7; }
+    .dias :nth-child(7) { order: 4; }
+}
 
 @media screen and (max-width: 800px) {
-
-    .dias :nth-child(1) { order: 1; }
-    .dias :nth-child(2) { order: 4; }
-    .dias :nth-child(3) { order: 2; }
-    .dias :nth-child(4) { order: 5; }
-    .dias :nth-child(5) { order: 3; }
-    .dias :nth-child(6) { order: 6; }
 
     .titulo {
         font-size: 22px;
@@ -127,3 +130,26 @@
 
 }
 
+.aovivo {
+    position: absolute;
+    right: -2px;
+    top: -8px;
+    padding: 1px 6px;
+    background-color: rgb(251,27,51);
+    color: $alice-blue;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.offline {
+    position: absolute;
+    right: -2px;
+    top: -8px;
+    padding: 1px 6px;
+    background-color: $darker-blue;
+    color: $alice-blue;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}

@@ -64,6 +64,12 @@
     .section {
         padding: 15px;
     }
+    
+    .section :nth-child(1) { order: 2; }
+    .section :nth-child(2) { order: 1; }
+
+    .sobre :nth-child(1) { order: 1; }
+
     .sobre {
         width: 90vw;
         min-width: 90vw;
