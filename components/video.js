@@ -10,7 +10,7 @@ const Video = () => {
             <div className={btnStyles.btnWrapper}>
                 <BtnQueroEntrar/>
             </div>
-            <iframe className={styles.video} src="https://www.youtube.com/embed/l7-tUzJNMMQ" frameborder="0" allow="autoplay; fullscreen; encrypted-media"></iframe>
+            <iframe className={styles.video} src="https://www.youtube.com/embed/R-T-lm_2Gfs" frameborder="0" allow="autoplay; fullscreen; encrypted-media"></iframe>
             <div className={styles.btn}>
                 
 
