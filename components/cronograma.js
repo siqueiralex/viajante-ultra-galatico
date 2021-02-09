@@ -19,22 +19,19 @@ const customStyles = {
         width: "95vw",
         maxWidth: "800px",
         margin: "0",
-
-
-
         
-            top                   : '50%',
-            left                  : '50%',
-            right                 : 'auto',
-            bottom                : 'auto',
-            marginRight           : '-50%',
-            transform             : 'translate(-50%, -45%)'
+        top                   : '50%',
+        left                  : '50%',
+        right                 : 'auto',
+        bottom                : 'auto',
+        marginRight           : '-50%',
+        transform             : 'translate(-50%, -45%)'
           
     }
 };
 
 const Cronograma = () => {
-    const [modalIsOpen, setIsOpen]= useState(true);
+    const [modalIsOpen, setIsOpen]= useState(false);
     const [modalContent, setModalContent]= useState(conteudoDias[1]);
 
     function openModal(dia) {
