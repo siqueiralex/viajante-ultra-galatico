@@ -37,9 +37,11 @@ const Cronograma = () => {
     function openModal(dia) {
         setModalContent(conteudoDias[dia])
         setIsOpen(true);
+        document.body.style.overflow = "hidden";
     }
     function closeModal(){
         setIsOpen(false);
+        document.body.style.overflow = "auto";
     }
 
 
