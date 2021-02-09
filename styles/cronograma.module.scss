@@ -1,6 +1,7 @@
 @import "theme";
 
 .section {
+    position: relative;
     padding: 50px 20px;
     width: 100vw;
     display: flex;
@@ -15,7 +16,7 @@
 }
 
 .titulo {
-    margin-bottom: 50px;
+    margin-bottom: 20px 0 0 0;
     font-family: 'arial_black', 'Arial Black', Helvetica, sans-serif;
     color: $darker-blue;
     font-weight: bold;
@@ -24,6 +25,15 @@
     text-align: center;
 }
 
+.subTitulo {
+    margin: 0 0 20px 0;
+    font-family: 'arial_black', 'Arial Black', Helvetica, sans-serif;
+    color: $darker-blue;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
+    text-align: center;
+}
 
 .bgblue { 
     background-color: $light-blue;
@@ -50,6 +60,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .textWrapper {
@@ -110,6 +121,11 @@
     .titulo {
         font-size: 22px;
     }
+
+    .subTitulo {
+        font-size: 15px;
+    }
+
     .dias {
         max-width: 99vw;
         margin: 0;

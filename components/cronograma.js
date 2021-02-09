@@ -1,13 +1,58 @@
 import styles from "../styles/cronograma.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
+import modalStyles from "../styles/modal.module.scss"
+import Modal from 'react-modal'
+import {useState} from 'react'
+import conteudoDias from "../components/conteudoDias.js"
+
+Modal.setAppElement("#__next");
+
+const customStyles = {
+   overlay : {
+        zIndex: "9999",
+    },
+    content: {
+        top: "50px",
+        overflow: "visible",
+        padding: "0",
+        height: "100vh",
+        width: "95vw",
+        maxWidth: "800px",
+        margin: "0",
+
+
+
+        
+            top                   : '50%',
+            left                  : '50%',
+            right                 : 'auto',
+            bottom                : 'auto',
+            marginRight           : '-50%',
+            transform             : 'translate(-50%, -45%)'
+          
+    }
+};
 
 const Cronograma = () => {
-    return (
-        <section className={styles.section}>
-            <h1 className={styles.titulo}> CRONOGRAMA <strong className={styles.bgblue}>PODEROSO</strong> DA IMERSÃO </h1>
+    const [modalIsOpen, setIsOpen]= useState(true);
+    const [modalContent, setModalContent]= useState(conteudoDias[1]);
 
+    function openModal(dia) {
+        setModalContent(conteudoDias[dia])
+        setIsOpen(true);
+    }
+    function closeModal(){
+        setIsOpen(false);
+    }
+
+
+
+    return (
+        <section  id="cronograma" className={styles.section}>
+            <h1 className={styles.titulo}> CRONOGRAMA <strong className={styles.bgblue}>PODEROSO</strong> DA IMERSÃO </h1>
+            <h1 className={styles.subTitulo}> CLIQUE NO DIA PARA VER OS DETALHES</h1>
             <div className={styles.dias}>
-                <div className={styles.dia}>
+                <div onClick={() => openModal(1)} className={styles.dia}>
                     <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>INTRODUÇÃO E MOCHILÃO ROOTS</div>
@@ -16,7 +61,7 @@ const Cronograma = () => {
                     <img className={styles.imagem} height="130px" src="dia1.png"></img>
                 </div>
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(5)} className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>VIDA NA VAN</div>
@@ -25,7 +70,7 @@ const Cronograma = () => {
                     <img className={styles.imagem} height="130px" src="dia5.png"></img>
                 </div>
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(2)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>MOCHILÃO NORMAL</div>
@@ -34,7 +79,7 @@ const Cronograma = () => {
                     <img className={styles.imagem} height="130px" src="dia2.png"></img>
                 </div>
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(6)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>EUROPA E AMÉRICA DO SUL</div>
@@ -44,7 +89,7 @@ const Cronograma = () => {
                 </div>
 
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(3)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>VIDA NO CARRO</div>
@@ -54,7 +99,7 @@ const Cronograma = () => {
                 </div>
                 
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(7)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>DINHEIRO E CONCLUSÃO</div>
@@ -63,7 +108,7 @@ const Cronograma = () => {
                     <img className={styles.imagem} height="130px" src="dia7.png"></img>
                 </div>
 
-                <div className={styles.dia}>
+                <div onClick={() => openModal(4)}  className={styles.dia}>
                     <div className={styles.offline}>offline</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>AULAS GRAVADAS</div>
@@ -76,7 +121,51 @@ const Cronograma = () => {
 
             </div>
                 <BtnQueroEntrar className={styles.botao}/>
-        </section>
+
+                    <Modal 
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    style={customStyles}> 
+                        <div className={modalStyles.closeBtn} onClick={closeModal}>X</div>
+
+                        <div className={modalStyles.modal}>
+                            <div className={modalStyles.tituloWrapper}>
+                                <div className={modalStyles.titulo}>
+                                {modalContent.titulo}
+                                </div>
+                                <div className={modalStyles.subTitulo}>
+                                {modalContent.subtitulo}
+                                </div>
+                            </div>
+                            <div className={modalStyles.items}>
+                                {modalContent.conteudos.map((conteudo) => 
+                                    <div className={modalStyles.item}>
+                                        <div className={modalStyles.itemTitulo}>
+                                            {conteudo.titulo}
+                                        </div>
+                                        {conteudo.topicos.map((topico) =>
+                                            <ul className={modalStyles.itemLista}>
+                                                <div className={modalStyles.itemSubTitulo}>
+                                                    {topico.nome}
+                                                </div>
+                                                {topico.items.map(item =>
+                                                    <li>
+                                                    {item}
+                                                    </li>
+                                                )}
+                                            </ul>
+    
+                                        )}
+                                        
+                                    </div>
+                                )}
+
+                            </div>
+                        </div>
+
+                    </Modal>
+        </section>    
+        
     )
 }
 
