@@ -19,11 +19,13 @@ const Cronometro = ({timeLeft}) =>{
 
                 <div className={styles.cronField}>
                     <div className={styles.cronNumero}>{timeLeft.minutes}</div>
+                    {/* <div className={styles.cronNumero}>33</div> */}
                     <div className={styles.cronLabel}> <p>MIN</p>  </div>
                 </div>
 
                 <div className={styles.cronField}>
                     <div className={styles.cronNumero}>{timeLeft.seconds}</div>
+                    {/* <div className={styles.cronNumero}>55</div> */}
                     <div className={styles.cronLabel}> <p>SEG</p></div>
                 </div>
             </div>
