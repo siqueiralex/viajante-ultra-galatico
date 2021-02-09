@@ -6,7 +6,7 @@
     font-family: 'arial';
     color: $alice-blue;
     background-color: rgb(21,17,13);
-    padding: 20px 40px;
+    padding: 18px 40px;
     text-align: center;
     border-radius: 20px;
     border: 1px rgba($color: rgb(100,100,100), $alpha: 0.4) solid;
@@ -32,13 +32,13 @@
 .cronNumero {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: center;
     font-family: 'arial_black';
     font-size: 40px;
     margin: 0 auto;
     width: 62px;
-    height: 50px;
+    height: 45px;
     letter-spacing: 0px;
     color: rgb(255, 217, 0);
 }
