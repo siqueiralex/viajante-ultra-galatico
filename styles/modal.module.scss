@@ -18,6 +18,7 @@
 .modal {
     height:100%;
     overflow-y: scroll;
+    padding-bottom: 50px;
 }
 
 .tituloWrapper{
@@ -41,7 +42,7 @@
 }
 
 .items {
-    padding: 40px 40px 50px 40px;
+    padding: 40px;
     background-color: $lighter-blue;
     min-height: 100%;
 }
