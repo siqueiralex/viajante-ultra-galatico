@@ -1,7 +1,6 @@
 import styles from '../styles/MainBanner.module.scss'
 import Cronometro from './cronometro.js'
 import { useEffect, useState } from "react";  
-import BoxMatriculasAbertas from "../components/boxMatriculasAbertas.js"
 
 const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     

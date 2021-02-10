@@ -4,10 +4,9 @@ import boxStyles from "../styles/BoxMatriculasAbertas.module.scss"
 
 const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
-    return ( 
-        <>      
-        {!timeLeft.abertas && 
-            <div className={styles.cronometro}>
+    return (       
+        !timeLeft.abertas
+            ?<div className={styles.cronometro}>
                 <div className={styles.countdownWrapper}>
                     <div className={styles.cronField}>
                         <div className={styles.cronNumero}>{timeLeft.days}</div>
@@ -75,9 +74,7 @@ const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
                 </div>
             </div> 
-        }
-        {timeLeft.abertas &&
-            <div className={boxStyles.abertoCronometro}>
+        : <div className={boxStyles.abertoCronometro}>
                 <div className={boxStyles.abertoMatriculas}>Matrículas</div>
                 <div className={boxStyles.abertoAbertas}>Abertas!</div>
 
@@ -88,8 +85,8 @@ const Cronometro = ({queroEntrarLink, timeLeft}) =>{
                     <button className={boxStyles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
                 </Link>
             </div>
-        }
-        </>
+        
+
     );
 }
 
