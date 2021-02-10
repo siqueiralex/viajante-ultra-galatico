@@ -3,7 +3,7 @@ import styles from "../styles/Cronometro.module.scss"
 const Cronometro = ({timeLeft}) =>{
 
     return (        
-        <div id="cronometro" className={styles.cronometro}>
+        <div className={styles.cronometro}>
             <div className={styles.countdownWrapper}>
                 <div className={styles.cronField}>
                     <div className={styles.cronNumero}>{timeLeft.days}</div>
