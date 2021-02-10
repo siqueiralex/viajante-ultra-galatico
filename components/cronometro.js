@@ -74,7 +74,7 @@ const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
                 </div>
             </div> 
-        : <div className={boxStyles.abertoCronometro}>
+        : <div className={boxStyles.aberto}>
                 <div className={boxStyles.abertoMatriculas}>Matrículas</div>
                 <div className={boxStyles.abertoAbertas}>Abertas!</div>
 
