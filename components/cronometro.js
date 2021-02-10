@@ -1,6 +1,5 @@
 import styles from "../styles/Cronometro.module.scss"
 import Link from 'next/link'
-import boxStyles from "../styles/BoxMatriculasAbertas.module.scss"
 
 const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
