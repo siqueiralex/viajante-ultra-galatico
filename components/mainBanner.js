@@ -3,10 +3,6 @@ import Cronometro from './cronometro.js'
 import { useEffect, useState } from "react";  
 import BoxMatriculasAbertas from "../components/boxMatriculasAbertas.js"
 
-
-
-
-
 const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     
     const calculateTimeLeft = () => {  
@@ -54,8 +50,7 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                {timeLeft.abertas && <BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}></BoxMatriculasAbertas>}
-                {!timeLeft.abertas && <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>}
+                  <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
               </div>
               
                 <div className={styles.textoImersao}>
