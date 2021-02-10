@@ -3,8 +3,9 @@ import Link from 'next/link'
 
 const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
-    return (       
-        !timeLeft.abertas
+    return (     
+        <>  
+        {!timeLeft.abertas
             ?<div className={styles.cronometro}>
                 <div className={styles.countdownWrapper}>
                     <div className={styles.cronField}>
@@ -84,7 +85,8 @@ const Cronometro = ({queroEntrarLink, timeLeft}) =>{
                     <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
                 </Link>
             </div>
-        
+            }
+        </>
 
     );
 }
