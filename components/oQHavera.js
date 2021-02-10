@@ -1,6 +1,8 @@
 import styles from "../styles/OQHavera.module.scss"
+import btnStyles from "../styles/BtnQueroEntrar.module.scss"
+import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
-const OQHavera = () => {
+const OQHavera = ({queroEntrarLink}) => {
     return (
         <section className={styles.section}>
             <h1 className={styles.titulo}>O QUE HAVERÁ NESSE <span className={styles.bgblue}>NOVO UNIVERSO?</span></h1>
@@ -13,6 +15,10 @@ const OQHavera = () => {
                 <div className={styles.setedias}>
                     <img height="350" src="/7-dias.png"></img>
                 </div>
+            </div>
+
+            <div className={btnStyles.btnWrapper}>
+                <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
             </div>
         </section>
     )

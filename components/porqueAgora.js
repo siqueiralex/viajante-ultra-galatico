@@ -1,7 +1,7 @@
 import styles from "../styles/porqueAgora.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
-const PorqueAgora = () => {
+const PorqueAgora = ({queroEntrarLink}) => {
     return(
         <section className={styles.section}>
             <h1 className={styles.titulo}> PORQUE VOCÊ DEVE ENTRAR NESSE UNIVERSO <strong className={styles.bgblue}>AGORA?</strong></h1>
@@ -67,7 +67,7 @@ const PorqueAgora = () => {
                     </p>
                 </div>
             </div>
-            <BtnQueroEntrar/>
+            <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
         </section>
     )
 }

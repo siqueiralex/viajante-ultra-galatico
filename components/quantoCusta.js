@@ -2,7 +2,7 @@ import styles from "../styles/quantoCusta.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
 
-const QuantoCusta = () => {
+const QuantoCusta = ({queroEntrarLink}) => {
     return (
         <section className={styles.section}>
             <h1 className={styles.titulo}> QUANTO VAI CUSTAR?</h1>
@@ -24,7 +24,7 @@ const QuantoCusta = () => {
                 </ul>
             </div>
 
-            <BtnQueroEntrar></BtnQueroEntrar>
+            <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
         </section>
     );
 }

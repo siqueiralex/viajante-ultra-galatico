@@ -3,34 +3,33 @@ import BtnQueroEntrar from './btnqueroentrar.js'
 import Cronometro from './cronometro.js'
 import { useEffect, useState } from "react";  
 
-// DIA DA ABERTURA MM/DD/YYY HH:MM:SS
-const diaAbertura = +new Date(`03/09/2021 01:50:00`)
-
-const calculateTimeLeft = () => {  
-    const difference = diaAbertura - +new Date();
-    let timeLeft = {
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-      aberto:true
-    };
-    if (difference>0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-        aberto: false
-      };
-    }
-
-    return timeLeft;
-} 
 
 
 
-const MainBanner = () => {
+
+const MainBanner = ({queroEntrarLink, diaAbertura}) => {
+  
+    const calculateTimeLeft = () => {  
+        const difference = diaAbertura - +new Date();
+        let timeLeft = {
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+          aberto:true
+        };
+        if (difference>0) {
+          timeLeft = {
+            days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+            minutes: Math.floor((difference / 1000 / 60) % 60),
+            seconds: Math.floor((difference / 1000) % 60),
+            aberto: false
+          };
+        }
+    
+        return timeLeft;
+    } 
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
       
@@ -43,7 +42,7 @@ const MainBanner = () => {
 
 
     return(
-        <section className={styles.section}>
+        <section id="page_top" className={styles.section}>
             
 
             <div className={styles.centerWrapper}>
@@ -54,7 +53,7 @@ const MainBanner = () => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                  <Cronometro className={styles.cronometro} timeLeft={timeLeft}></Cronometro>
+                  <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
               </div>
               
                 <div className={styles.textoImersao}>

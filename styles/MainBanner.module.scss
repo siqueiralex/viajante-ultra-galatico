@@ -6,11 +6,12 @@
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
     justify-content: space-between;
     padding: 0px;
     box-sizing: border-box;    
     position: relative;
+    // margin-top: 10px;
     // transform-style: inherit;
 
     background: url('/background.jpg');
@@ -130,7 +131,7 @@
 
     .textoImersao{
         position: absolute;
-        top: 1020px;
+        top: 1000px;
         left: auto;
         border-radius: 10px;
         padding: 15px;
@@ -140,4 +141,16 @@
     }
 
 
+}
+
+@media screen and(max-width: 370px){
+    .textoImersao{
+        top: 1020px;
+    }
+}
+
+@media screen and(max-width: 320px){
+    .textoImersao{
+        display: none;
+    }
 }

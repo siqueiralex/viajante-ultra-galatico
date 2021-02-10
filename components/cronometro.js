@@ -1,11 +1,24 @@
 import styles from "../styles/Cronometro.module.scss"
+import Link from 'next/link'
 
-
-
-const Cronometro = ({timeLeft}) =>{
+const Cronometro = ({timeLeft, queroEntrarLink}) =>{
 
     return (        
-        <div className={styles.cronometro}>
+        timeLeft.aberto
+            ?<div id="cronometro" className={styles.abertoCronometro}>
+                <div className={styles.abertoMatriculas}>Matrículas</div>
+                <div className={styles.abertoAbertas}>Abertas</div>
+
+                <div className={styles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
+
+                <div className={styles.abertoCorre}>Vagas limitadas a 300 participantes!</div>    
+                <Link href={queroEntrarLink}>
+                    <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
+                </Link>
+
+            </div>
+
+            :<div id="cronometro" className={styles.cronometro}>
             <div className={styles.countdownWrapper}>
                 <div className={styles.cronField}>
                     <div className={styles.cronNumero}>{timeLeft.days}</div>
@@ -73,6 +86,10 @@ const Cronometro = ({timeLeft}) =>{
 
             </div>
         </div>
+
+
+    
+        
     );
 }
 

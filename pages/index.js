@@ -12,6 +12,10 @@ import SobreEliezer from "../components/sobreEliezer.js"
 import QuantoCusta from "../components/quantoCusta.js"
 import FAQ from "../components/FAQ.js"
 
+// DIA DA ABERTURA MM/DD/YYY HH:MM:SS
+const diaAbertura = +new Date(`02/10/2021 15:06:40`);
+const queroEntrarLink = "#page_top";
+
 export default function Home() {
 
   return (  
@@ -21,16 +25,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <MainBanner/>
-      <Video/>
-      <FaixaResumo/>
-      <OQHavera/>
-      <SeisModulos/>
-      <Cronograma/>
-      <PorqueAgora/>
-      <SobreEliezer/>
-      <QuantoCusta/>
-      <FAQ/>
+      <MainBanner diaAbertura={diaAbertura} queroEntrarLink={queroEntrarLink}/>
+      <Video queroEntrarLink={queroEntrarLink}/>
+      <FaixaResumo queroEntrarLink={queroEntrarLink}/>
+      <OQHavera queroEntrarLink={queroEntrarLink}/>
+      <SeisModulos queroEntrarLink={queroEntrarLink}/>
+      <Cronograma queroEntrarLink={queroEntrarLink}/>
+      <PorqueAgora queroEntrarLink={queroEntrarLink}/>
+      <SobreEliezer queroEntrarLink={queroEntrarLink}/>
+      <QuantoCusta queroEntrarLink={queroEntrarLink}/>
+      <FAQ queroEntrarLink={queroEntrarLink}/>
     
      
       <footer className={styles.footer}>

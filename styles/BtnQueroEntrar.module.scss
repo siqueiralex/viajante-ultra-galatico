@@ -21,8 +21,14 @@
     border-radius: 50px;
     border-width: 0px;
     cursor: pointer;
+    box-shadow: 2px 2px 6px #888888 ;
     // z-index: 1;
 
+}
+
+.button:hover{
+    box-shadow: 3px 3px 6px #888888 ;
+    background-color: rgb(68, 207, 119);
 }
 
 @media screen and (max-width: 620px) {

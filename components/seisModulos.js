@@ -1,7 +1,7 @@
 import styles from "../styles/seisModulos.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
-const SeisModulos = () => {
+const SeisModulos = ({queroEntrarLink}) => {
     return (
         <section className={styles.section}>
             <h1 className={styles.titulo}> SERÃO 6 MÓDULOS ENSINADOS NESSA IMERSÃO</h1>
@@ -79,7 +79,7 @@ const SeisModulos = () => {
                     </p>
                 </div>
 
-                <BtnQueroEntrar/>
+                <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
 
             </div>
         </section>
