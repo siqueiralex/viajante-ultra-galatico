@@ -35,24 +35,27 @@ const Cronometro = ({timeLeft}) =>{
             <div className={styles.informeDados}>
                 INSIRA SEUS DADOS PARA FICAR INFORMADO
             </div>
+
             <div className={styles.formulario}>
-                <form>
+                <form action="https://app.convertkit.com/forms/2028410/subscriptions" method="post" data-sv-form="2028410" data-uid="0e0bf57b55" data-version="5">
+
                     <div className={styles.nomeField}>
-                        <label for="nome_id" className={styles.nomeLabel}>
+                        <label for="mce-FNAME" className={styles.nomeLabel}>
                             Nome*
                         </label>
-                        <input id="nome_id" className={styles.nomeInput} name="name" type="text" data-use-type="STRING"  required="required"/>
+                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="required" placeholder="Nome" type="text"></input>
                     </div>
 
                     <div className={styles.emailField}>
-                        <label for="email_id" className={styles.emaiLaber}>
+                        <label for="mce-EMAIL" className={styles.emaiLaber}>
                         Email*
                         </label>
-                        <input id="email_id" className={styles.emailInput} name="email" type="email" data-use-type="STRING"  required="required"/>
+                        <input className={styles.emailInput} id="mce-EMAIL" name="EMAIL" aria-label="Email Address" placeholder="Email" required="required" type="email"></input>
+                        
                     </div>
 
                     <div className={styles.concordoField}>
-                        <input className={styles.concordoInput} id="form-checkbox" name="privacy_data[communications]" type="checkbox" value="1" data-use-type="STRING" data-always-visible="true" />
+                        <input className={styles.concordoInput} type="checkbox" value="1" name="group[80035][1]" id="mce-group[80035]-80035-0" data-use-type="STRING" data-always-visible="true" />
                             Eu concordo em receber comunicações.
                     </div>
                     
@@ -63,9 +66,11 @@ const Cronometro = ({timeLeft}) =>{
                     </div>
 
                 </form>
+                
                 <div className={styles.notSpam}>
                     Pode ficar tranquilo, a gente <strong>não</strong> vai usar seu contato para enviar SPAM.
                 </div>
+
             </div>
         </div>
     );
