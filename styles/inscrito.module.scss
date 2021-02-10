@@ -11,7 +11,7 @@
 }
 
 
-.overlay{
+.subOverlay{
     margin: 0;
     min-height: 100vh;
     width: 100vw;
@@ -24,7 +24,7 @@
 }
 
 
-.abertoCronometro {
+.subBox {
     margin: 15px auto 20px auto;
     max-width: 400px;
     color: $alice-blue;
@@ -35,13 +35,13 @@
     border: 1px rgba($color: rgb(100,100,100), $alpha: 0.4) solid;
 }
 
-.abertoMatriculas {
+.subBemVindo {
     text-transform: uppercase;
     line-height: 32px;
     font-family: 'arial_black';
     font-size: 28px;
 }
-.abertoAbertas {
+.subNovoUniverso {
     text-transform: uppercase;
     line-height: 40px;
     font-family: 'arial_black';
@@ -49,7 +49,7 @@
     color: $base-green;
 }
 
-.abertoTexto {
+.subAvisoEmail {
     padding: 12px;
     text-transform: uppercase;  
     font-family: 'arial';
@@ -59,44 +59,39 @@
     margin: 10px auto;
 }
 
-.abertoCorre {
+.subSpamAviso {
     padding: 12px;
     text-transform: uppercase;  
     font-family: 'arial';
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
-    margin: 0px auto 10px auto;
+    margin: 0px auto;
     color: rgb(124, 124, 124);
 }
 
-
-.abertoBotao {
-    background-color: $base-green;
-    padding: 20px;
-    color: #FFFFFF;
-    font-family:  'moon_getheavy', 'Arial Black', Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 27px!important;
-    letter-spacing: 2px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    border-radius: 50px;
+.subRetornar {
+    border-radius: 20px;
     border-width: 0px;
+    min-width: 180px;
+    padding: 15px 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 15px auto;
+    background-color:$base-blue;
+    color: $alice-blue;
     cursor: pointer;
-}
-
-.abertoBotao:hover{
-    background-color: rgb(68, 207, 119);
 }
 
 
 @media screen and (max-width: 450px) {
-    .abertoMatriculas{
+    .subBemVindo{
         font-size:26px;
     }
 
-    .abertoAbertas{
+    .subNovoUniverso{
         font-size: 30px;
     }
 }
+

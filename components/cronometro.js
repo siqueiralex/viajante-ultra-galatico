@@ -41,19 +41,19 @@ const Cronometro = ({timeLeft}) =>{
                         <label for="mce-FNAME" className={styles.nomeLabel}>
                             Nome*
                         </label>
-                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="" placeholder="Nome" type="text"></input>
+                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="required" placeholder="Nome" type="text"></input>
                     </div>
 
                     <div className={styles.emailField}>
                         <label for="mce-EMAIL" className={styles.emaiLaber}>
                         Email*
                         </label>
-                        <input className={styles.emailInput} id="mce-EMAIL" name="email_address" aria-label="Email Address" placeholder="Email" required="" type="email"></input>
+                        <input className={styles.emailInput} id="mce-EMAIL" name="email_address" aria-label="Email Address" placeholder="Email" required="required" type="email"></input>
                         
                     </div>
 
                     <div className={styles.concordoField}>
-                        <input className={styles.concordoInput} type="checkbox" value="1" name="group[80035][1]" id="mce-group[80035]-80035-0" data-use-type="STRING" data-always-visible="true" />
+                        <input className={styles.concordoInput} required="required" type="checkbox" value="1" name="group[80035][1]" id="mce-group[80035]-80035-0" data-use-type="STRING" data-always-visible="true" />
                             Eu concordo em receber comunicações.
                     </div>
                     
