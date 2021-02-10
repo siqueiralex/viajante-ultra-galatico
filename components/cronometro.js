@@ -37,20 +37,20 @@ const Cronometro = ({timeLeft}) =>{
             </div>
 
             <div className={styles.formulario}>
-                <form action="https://app.convertkit.com/forms/2028410/subscriptions" method="post" data-sv-form="2028410" data-uid="0e0bf57b55" data-version="5">
+                <form action="https://app.convertkit.com/forms/2028410/subscriptions" method="post" data-sv-form="2028410" data-uid="0e0bf57b55" data-format="inline" data-version="5">
 
                     <div className={styles.nomeField}>
                         <label for="mce-FNAME" className={styles.nomeLabel}>
                             Nome*
                         </label>
-                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="required" placeholder="Nome" type="text"></input>
+                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="" placeholder="First Name" type="text"></input>
                     </div>
 
                     <div className={styles.emailField}>
                         <label for="mce-EMAIL" className={styles.emaiLaber}>
                         Email*
                         </label>
-                        <input className={styles.emailInput} id="mce-EMAIL" name="EMAIL" aria-label="Email Address" placeholder="Email" required="required" type="email"></input>
+                        <input className={styles.emailInput} id="mce-EMAIL" name="email_address" aria-label="Email Address" placeholder="Email Address" required="" type="email"></input>
                         
                     </div>
 
