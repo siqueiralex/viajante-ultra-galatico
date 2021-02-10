@@ -73,15 +73,15 @@ const Cronometro = ({queroEntrarLink, timeLeft}) =>{
 
                 </div>
             </div> 
-        : <div className={boxStyles.aberto}>
-                <div className={boxStyles.abertoMatriculas}>Matrículas</div>
-                <div className={boxStyles.abertoAbertas}>Abertas!</div>
+        : <div className={styles.aberto}>
+                <div className={styles.abertoMatriculas}>Matrículas</div>
+                <div className={styles.abertoAbertas}>Abertas!</div>
 
-                <div className={boxStyles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
+                <div className={styles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
 
-                <div className={boxStyles.abertoCorre}>Vagas limitadas a 300 participantes!</div>    
+                <div className={styles.abertoCorre}>Vagas limitadas a 300 participantes!</div>    
                 <Link href={queroEntrarLink}>
-                    <button className={boxStyles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
+                    <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
                 </Link>
             </div>
         
