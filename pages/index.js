@@ -12,8 +12,9 @@ import SobreEliezer from "../components/sobreEliezer.js"
 import QuantoCusta from "../components/quantoCusta.js"
 import FAQ from "../components/FAQ.js"
 
-// DIA DA ABERTURA MM/DD/YYY HH:MM:SS
-const diaAbertura = +new Date(`02/10/2021 15:06:40`);
+
+const diaAbertura = +new Date(`02/10/2021 16:00:00`);
+
 const queroEntrarLink = "#page_top";
 
 export default function Home() {
