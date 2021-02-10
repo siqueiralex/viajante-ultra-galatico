@@ -29,10 +29,13 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     } 
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+    const [abertas, setAbertas] = useState(false);
 
       useEffect(() => {
         const timer = setTimeout(() => {
           setTimeLeft(calculateTimeLeft());
+          setAbertas(timeLeft.abertas)
+         
         }, 1000);
         return () => clearTimeout(timer);
       });
@@ -50,8 +53,8 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                  <Cronometro className={styles.cronometro} hidden={timeLeft.abertas? 'hidden' : ""} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
-                  <MatriculasAbertas hidden={timeLeft.abertas ? '' : 'hidden'} queroEntrarLink={queroEntrarLink} ></MatriculasAbertas>
+                  <Cronometro className={styles.cronometro} hidden={abertas? 'hidden' : ""} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                  <MatriculasAbertas hidden={abertas ? '' : 'hidden'} queroEntrarLink={queroEntrarLink} ></MatriculasAbertas>
               </div>
               
                 <div className={styles.textoImersao}>
