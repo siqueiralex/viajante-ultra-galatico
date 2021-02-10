@@ -1,23 +1,9 @@
 import styles from "../styles/Cronometro.module.scss"
-import Link from 'next/link'
 
-const Cronometro = ({timeLeft, queroEntrarLink}) =>{
+const Cronometro = ({timeLeft}) =>{
 
     return (        
-        timeLeft.aberto
-            ?<div id="cronometro" className={styles.abertoCronometro}>
-                <div className={styles.abertoMatriculas}>Matrículas</div>
-                <div className={styles.abertoAbertas}>Abertas</div>
-
-                <div className={styles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
-
-                <div className={styles.abertoCorre}>Vagas limitadas a 300 participantes!</div>    
-                <Link href={queroEntrarLink}>
-                    <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
-                </Link>
-            </div>
-
-            :<div id="cronometro" className={styles.cronometro}>
+        <div id="cronometro" className={styles.cronometro}>
             <div className={styles.countdownWrapper}>
                 <div className={styles.cronField}>
                     <div className={styles.cronNumero}>{timeLeft.days}</div>
@@ -55,14 +41,14 @@ const Cronometro = ({timeLeft, queroEntrarLink}) =>{
                         <label for="mce-FNAME" className={styles.nomeLabel}>
                             Nome*
                         </label>
-                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="" placeholder="First Name" type="text"></input>
+                        <input id="mce-FNAME" className={styles.nomeInput} aria-label="First Name" name="fields[first_name]" required="" placeholder="Nome" type="text"></input>
                     </div>
 
                     <div className={styles.emailField}>
                         <label for="mce-EMAIL" className={styles.emaiLaber}>
                         Email*
                         </label>
-                        <input className={styles.emailInput} id="mce-EMAIL" name="email_address" aria-label="Email Address" placeholder="Email Address" required="" type="email"></input>
+                        <input className={styles.emailInput} id="mce-EMAIL" name="email_address" aria-label="Email Address" placeholder="Email" required="" type="email"></input>
                         
                     </div>
 

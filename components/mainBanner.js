@@ -1,7 +1,7 @@
 import styles from '../styles/MainBanner.module.scss'
-import BtnQueroEntrar from './btnqueroentrar.js'
 import Cronometro from './cronometro.js'
 import { useEffect, useState } from "react";  
+import BoxMatriculasAbertas from "../components/boxMatriculasAbertas.js"
 
 
 
@@ -53,7 +53,11 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                  <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                {timeLeft.aberto
+                  ?<BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}/>
+                  :<Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                }
+                  
               </div>
               
                 <div className={styles.textoImersao}>
