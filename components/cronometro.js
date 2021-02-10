@@ -70,11 +70,7 @@ const Cronometro = ({timeLeft}) =>{
                 </div>
 
             </div>
-        </div>
-
-
-    
-        
+        </div>        
     );
 }
 

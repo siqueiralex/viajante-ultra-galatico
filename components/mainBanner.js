@@ -8,7 +8,7 @@ import BoxMatriculasAbertas from "../components/boxMatriculasAbertas.js"
 
 
 const MainBanner = ({queroEntrarLink, diaAbertura}) => {
-  
+    
     const calculateTimeLeft = () => {  
         const difference = diaAbertura - +new Date();
         let timeLeft = {
@@ -16,15 +16,16 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
           hours: 0,
           minutes: 0,
           seconds: 0,
-          aberto:true
+          abertas:true,
         };
+
         if (difference>0) {
           timeLeft = {
             days: Math.floor(difference / (1000 * 60 * 60 * 24)),
             hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
             minutes: Math.floor((difference / 1000 / 60) % 60),
             seconds: Math.floor((difference / 1000) % 60),
-            aberto: false
+            abertas: false,
           };
         }
     
@@ -53,15 +54,13 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                {timeLeft.aberto
-                  ?<BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}></BoxMatriculasAbertas>
-                  :<Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
-                }
+                {timeLeft.abertas && <BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}></BoxMatriculasAbertas>}
+                {!timeLeft.abertas && <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>}
               </div>
               
                 <div className={styles.textoImersao}>
                 IMERSÃO ONLINE DE <span className={styles.bgblue}>7 DIAS</span> APRENDENDO <span className={styles.bgblue}>TUDO QUE SEI</span> SOBRE <span className={styles.bgblue}>VIAGENS</span>
-              </div>
+                </div>
 
             </div>
 

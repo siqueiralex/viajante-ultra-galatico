@@ -3,7 +3,6 @@ import styles from "../styles/BoxMatriculasAbertas.module.scss"
 
 const BoxMatriculasAbertas = ({queroEntrarLink})=> {
     return (
-    
             <div className={styles.abertoCronometro}>
                 <div className={styles.abertoMatriculas}>Matrículas</div>
                 <div className={styles.abertoAbertas}>Abertas</div>
