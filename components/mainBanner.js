@@ -54,22 +54,15 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
 
               <div className={styles.cronometroWrapper}>
                 {timeLeft.aberto
-                  ?<BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}/>
+                  ?<BoxMatriculasAbertas queroEntrarLink={queroEntrarLink}></BoxMatriculasAbertas>
                   :<Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
                 }
-                  
               </div>
               
                 <div className={styles.textoImersao}>
                 IMERSÃO ONLINE DE <span className={styles.bgblue}>7 DIAS</span> APRENDENDO <span className={styles.bgblue}>TUDO QUE SEI</span> SOBRE <span className={styles.bgblue}>VIAGENS</span>
               </div>
 
-              
-                {/* {timeLeft.aberto && 
-                  <div className={styles.btnWrapper}>
-                    <BtnQueroEntrar/>
-                  </div>
-                } */}
             </div>
 
             
