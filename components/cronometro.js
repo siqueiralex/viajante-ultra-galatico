@@ -15,7 +15,6 @@ const Cronometro = ({timeLeft, queroEntrarLink}) =>{
                 <Link href={queroEntrarLink}>
                     <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
                 </Link>
-
             </div>
 
             :<div id="cronometro" className={styles.cronometro}>
