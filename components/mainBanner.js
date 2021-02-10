@@ -1,6 +1,7 @@
 import styles from '../styles/MainBanner.module.scss'
 import Cronometro from './cronometro.js'
 import { useEffect, useState } from "react";  
+import MatriculasAbertas from './matriculasAbertas.js';
 
 const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     
@@ -28,7 +29,7 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     } 
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-      
+
       useEffect(() => {
         const timer = setTimeout(() => {
           setTimeLeft(calculateTimeLeft());
@@ -49,7 +50,8 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                  <Cronometro className={styles.cronometro} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                  <Cronometro className={styles.cronometro} hidden={timeLeft.abertas? 'hidden' : ""} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                  <MatriculasAbertas hidden={timeLeft.abertas ? '' : 'hidden'} queroEntrarLink={queroEntrarLink} ></MatriculasAbertas>
               </div>
               
                 <div className={styles.textoImersao}>
