@@ -20,10 +20,10 @@ export default function inscrito() {
 
                 <div className={styles.subAvisoEmail}>Você será avisado por email quando as matrículas da próxima imersão estiverem abertas!</div>    
 
-                <div className={styles.subSpamAviso}>Mas Você já desbloqueou um grupo fechado para ter acesso à entrada da galáxia! Acabei de te enviar por email um link de acesso a esse grupo!</div>    
                 <div className={styles.subSpamAviso}>Se não encontrar o e-mail, procure na caixa de SPAM ou de Promoções :)</div>    
+                <div className={styles.subGrupo}>Ahh... e você já desbloqueou um grupo fechado para ter acesso à entrada da galáxia! Acabei de te enviar por email o link de acesso!</div>    
                 <Link href="/">
-                    <button className={styles.subRetornar}>Retornar pro site</button>
+                    <button className={styles.subRetornar}>Ir para o site</button>
                 </Link>
                 
                 </div>
