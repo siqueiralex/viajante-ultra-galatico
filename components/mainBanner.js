@@ -29,7 +29,7 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
     } 
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-    const [abertas, setAbertas] = useState(true);
+    const [abertas, setAbertas] = useState(false);
 
       useEffect(() => {
         const timer = setTimeout(() => {
