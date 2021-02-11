@@ -6,6 +6,7 @@ const MatriculasAbertas = ({queroEntrarLink, hidden}) => {
         <div hidden={hidden} className={styles.matriculasAbertas}>
                 <div className={styles.abertoMatriculas}>Matrículas</div>
                 <div className={styles.abertoAbertas}>Abertas!</div>
+                
 
                 <div className={styles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
 
