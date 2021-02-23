@@ -45,10 +45,10 @@ const MainBanner = ({queroEntrarLink, diaAbertura}) => {
             
 
             <div className={styles.centerWrapper}>
-              <img src='/EscolaDoViajante.png' className={styles.logo}/>
+              <img src='/EscolaDoViajante.webp' className={styles.logo}/>
               
               <div className={styles.ImagemWrapper}>
-                  <img src='/ImagemEliezer.png' className={styles.Imagem}/>
+                  <img src='/ImagemEliezer.webp' className={styles.Imagem}/>
               </div>
 
               <div className={styles.cronometroWrapper}>
