@@ -18,7 +18,7 @@ const sobreEliezer = () => {
                 </div>
             </div>
             <div className={styles.imageWrapper}>
-                <img src="/imagemSobre.png"></img>
+                <img src="/imagemSobre.jpg"></img>
             </div>
         </section>
     )
