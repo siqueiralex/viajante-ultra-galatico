@@ -11,7 +11,7 @@ const FAQ = ({queroEntrarLink}) => {
                     
                     <h3 className={styles.perguntaTitulo}> ISSO É UM CURSO?</h3>
                     <p className={styles.perguntaTexto}>
-                    Diferente de um curso, isso é uma Imersão. Serão 7 dias corridos de conteúdo ao vivo todos os dias.
+                    Diferente de um curso, isso é uma Imersão. Serão 4 dias de conteúdo ao vivo todos os dias.
                     </p>
                 </div>
 
@@ -51,7 +51,7 @@ const FAQ = ({queroEntrarLink}) => {
                     
                     <h3 className={styles.perguntaTitulo}> PARA QUEM É ESSA IMERSÃO?</h3>
                     <p className={styles.perguntaTexto}>
-                    Para quem nunca viajou e para quem já tem algum experiência de viagem. Aqui você vai aprender várias formas de viajar dentre outros conteúdos excelentes!
+                    Para quem nunca viajou e quer fazer sua primeira viagem e para quem já viajou mas quer aprender dicas para melhorar a sua viagem.
                     </p>
                 </div>
             </div>

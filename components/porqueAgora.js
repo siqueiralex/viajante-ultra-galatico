@@ -13,7 +13,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>
                     <h3 className={styles.motivoTitulo}> É ALGO LIMITADÍSSIMO!</h3>
                     <p className={styles.motivoTexto}>
-                    Essa imersão será feita apenas em 2021, e com apenas 300 alunos por vez! É realmente uma oportunidade única de aprender MUITOS conhecimentos e colocar em prática nas suas viagens futuras!
+                    Essa imersão será feita apenas em 2021, com pouquíssimas! É realmente uma oportunidade única de aprender MUITOS conhecimentos e colocar em prática nas suas viagens futuras!
                     </p>
                 </div>
 
@@ -23,7 +23,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>
                     <h3 className={styles.motivoTitulo}> É AO VIVO!</h3>
                     <p className={styles.motivoTexto}>
-                    Escolhi ser ao vivo para ter mais contato com os participantes. Além das aulas ao vivo, eu ligarei pessoalmente para 10 participantes por dia e conversarei por 10 minutos com cada!
+                    Escolhi ser ao vivo para ter mais contato com os participantes, assim eu posso ouvir suas histórias, tirar dúvidas e orientar com dicas de mochilão da melhor forma possível.
                     </p>
                 </div>
 
@@ -33,7 +33,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>  
                     <h3 className={styles.motivoTitulo}> ENTRE ANTES E ECONOMIZE!</h3>
                     <p className={styles.motivoTexto}>
-                    O valor da imersão irá aumentar R$ 20 reais a cada turma. Ou seja, se a primeira turma custou R$245, a segunda irá custar R$265, a terceira R$285 e assim por diante.
+                    O valor da imersão irá aumentar R$ 20 reais a cada turma. Ou seja, se a primeira turma custou R$197, a segunda irá custar R$217, a terceira R$237 e assim por diante.
                     </p>
                 </div>
 

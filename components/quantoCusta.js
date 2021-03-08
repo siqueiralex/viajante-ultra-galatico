@@ -11,11 +11,10 @@ const QuantoCusta = ({queroEntrarLink}) => {
                 <div className={styles.boxBigTitle}>
                     INCRÍVEIS
                 </div>
-                <div className={styles.boxGreenTitle}>R$245!</div>
+                <div className={styles.boxGreenTitle}>R$197!</div>
                 <div className={styles.boxSubtitle}>PODE PARCELAR EM ATÉ 12X</div>
                 <ul className={styles.lista}>
                     <li>Encontros 100% ao vivo</li>
-                    <li>Ligação pessoal com 70 participantes</li>
                     <li>Aulas extras gravadas</li>
                     <li>Aprenda com quem viaja o mundo há 6 anos sem parar</li>
                     <li>+ de 15 horas de conteúdo</li>

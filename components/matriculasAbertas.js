@@ -8,9 +8,9 @@ const MatriculasAbertas = ({queroEntrarLink, hidden}) => {
                 <div className={styles.abertoAbertas}>Abertas!</div>
                 
 
-                <div className={styles.abertoTexto}>Imersão Online de 7 dias aprendendo tudo que sei sobre viagens</div>    
+                <div className={styles.abertoTexto}>Imersão Online de 4 dias aprendendo tudo que sei sobre viagens</div>    
 
-                <div className={styles.abertoCorre}>Vagas limitadas a 300 participantes!</div>    
+                <div className={styles.abertoCorre}>Vagas limitadíssimas!</div>    
                 <Link href={queroEntrarLink}>
                     <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
                 </Link>
