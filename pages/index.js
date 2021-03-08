@@ -13,7 +13,7 @@ import QuantoCusta from "../components/quantoCusta.js"
 import FAQ from "../components/FAQ.js"
 
 
-const diaAbertura = +new Date(`03/1/2021 19:00:00`);
+const diaAbertura = +new Date(`03/14/2021 12:20:00`);
 
 const queroEntrarLink = "#page_top";
 

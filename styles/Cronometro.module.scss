@@ -1,6 +1,9 @@
 @import "theme";
 
 .cronometro {
+
+    margin-top: 55px;
+
     width: 360px;
     line-height: 28px;
     font-family: 'arial';
@@ -76,6 +79,8 @@
 }
 
 
+
+
 .formulario {
     display: flex;
     width: 100%;
@@ -133,7 +138,6 @@
     background-color:$base-blue;
     color: $alice-blue;
     cursor: pointer;
-
 }
 
 .notSpam {
@@ -142,4 +146,39 @@
     letter-spacing: 0px;
 }
 
+.emBreve{
+    padding: 12px;
+    text-transform: uppercase;  
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 25px auto;
+}
+
+.avisoTelegram{
+    color: rgb(124,124,124);
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    height: 100%;
+    margin: 30px auto;
+}
+
+
+.telegramButton{
+    display: block;
+    border-radius: 40px;
+    border-width: 0px;
+    min-width: 180px;
+    padding: 25px 35px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 20px auto;
+    background-color:$base-blue;
+    color: $alice-blue;
+    cursor: pointer;
+}
 

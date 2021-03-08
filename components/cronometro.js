@@ -1,4 +1,5 @@
 import styles from "../styles/Cronometro.module.scss"
+import Link from 'next/link'
 
 const Cronometro = ({timeLeft, hidden}) =>{
     return (     
@@ -29,11 +30,31 @@ const Cronometro = ({timeLeft, hidden}) =>{
                     <h4 className={styles.paraProxima}>PARA A PRÓXIMA IMERSÃO</h4>
 
 
-                <div className={styles.informeDados}>
-                    INSIRA SEUS DADOS PARA FICAR INFORMADO
+
+                <div className={styles.emBreve}>
+                    A PRÓXIMA IMERSÃO VAI ABRIR EM BREVE!
                 </div>
 
-                <div className={styles.formulario}>
+
+                <div className={styles.avisoTelegram}>
+                    ENTRE NO GRUPO DO TELEGRAM PRA SE MANTER INFORMADO
+                </div>
+
+                <div className={styles.telegramButtonWrapper}>
+                    <a target="_blank" href="https://t.me/joinchat/WWJQRYeMlxQKwFYh" className={styles.telegramButton}>
+                    ENTRAR NO GRUPO
+                    </a>
+                </div>
+
+
+
+
+                {
+                    /*
+                    <div className={styles.informeDados}>
+                    INSIRA SEUS DADOS PARA FICAR INFORMADO
+                    </div>    
+                 <div className={styles.formulario}>
                     <form action="https://app.convertkit.com/forms/2028410/subscriptions" method="post" data-sv-form="2028410" data-uid="0e0bf57b55" data-format="inline" data-version="5">
 
                         <div className={styles.nomeField}>
@@ -68,7 +89,7 @@ const Cronometro = ({timeLeft, hidden}) =>{
                         Pode ficar tranquilo, a gente <strong>não</strong> vai usar seu contato para enviar SPAM.
                     </div>
 
-                </div>
+                </div> */}
             </div> 
     );
 }
