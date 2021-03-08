@@ -58,6 +58,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Introdução e tudo o que você precisa saber para viajar com pouco dinheiro</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia1.png"></img>
+                    <img className={styles.tap} src="tap.png"></img>
                 </div>
 
                 <div onClick={() => openModal(5)} className={styles.dia}>
@@ -67,6 +68,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Como construir sua própria van e viajar pelo mundo</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia5.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
                 <div onClick={() => openModal(2)}  className={styles.dia}>
@@ -76,6 +78,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Mochilão, voluntariado, técnicas para iajar barato e com muito conforto</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia2.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
                 <div onClick={() => openModal(6)}  className={styles.dia}>
@@ -85,6 +88,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Tudo sobre os países mais visitados da Europa e América do Sul + Imigração em Portugal</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia6.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
 
@@ -95,6 +99,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Desde como montar seu carro do zero até a vida minimalista na estrada</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia3.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
                 
 
@@ -105,6 +110,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Como fazer dinheiro na estrada e conclusão da imersão</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia7.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
                 <div onClick={() => openModal(4)}  className={styles.dia}>
@@ -114,6 +120,7 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTextoRight}>Além de encontros ao vivo teremos conteúdo gravado :D Nesse dia disponibilizarei todas as aulas gravadas da imersão. </div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia4.png"></img>
+                    {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
 

@@ -63,6 +63,11 @@
     cursor: pointer;
 }
 
+.dia:hover { 
+    border-color: $dark-green;
+    background-color: rgba(235,255,235,.3);
+}
+
 .textWrapper {
     width: 240px;
     display: flex;
@@ -161,6 +166,35 @@
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1);
+        transform :translateX(0);
+        transform :translateY(0);
+        
+    }
+    50% {
+        transform :translateX(-15px);
+        transform :translateY(-15px);
+        transform: scale(.95);
+    }
+    to {
+        transform : scale(1);
+        transform :translateX(0);
+        transform :translateY(0);
+    
+    }
+}
+
+.tap {
+    position: absolute;
+    right: -8px;
+    bottom: -12px;
+    animation : pulse 1s infinite;
+    opacity: .6;
+    z-index: 1;
 }
 
 .offline {
