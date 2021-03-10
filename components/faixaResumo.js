@@ -19,7 +19,7 @@ const FaixaResumo = () => {
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="95px" src="/grupo.svg"/>
+                <img height="120px" src="/grupo.png"/>
                 <div className={styles.text}>COMUNIDADE PARA MEUS QUERIDOS PARTICIPANTES S2</div>
             </div>
         </div> 
