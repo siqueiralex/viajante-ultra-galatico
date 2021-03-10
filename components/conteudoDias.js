@@ -447,7 +447,7 @@ const conteudoDias = {
 
     }, 
     6: {
-        titulo: "DIA 6: América do Sul e Europa",
+        titulo: "DIA 3: América do Sul e Europa",
         subtitulo: "Tudo sobre os países mais visitados na América do Sul e Europa",
         conteudos: [
             {
@@ -590,7 +590,7 @@ const conteudoDias = {
 
     },  
     7: {
-        titulo: "DIA 7: Como Fazer Dinheiro e Conclusão",
+        titulo: "DIA 4: Como Fazer Dinheiro e Conclusão",
         subtitulo: "Como fazer dinheiro na estrada e conclusão da imersão",
         conteudos: [
             {

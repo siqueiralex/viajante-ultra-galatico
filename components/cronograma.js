@@ -60,16 +60,19 @@ const Cronograma = ({queroEntrarLink}) => {
                     <img className={styles.imagem} height="130px" src="dia1.png"></img>
                     <img className={styles.tap} src="tap.png"></img>
                 </div>
-
-                <div onClick={() => openModal(5)} className={styles.dia}>
+            
+                
+                {/*
+                    <div onClick={() => openModal(5)} className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>VIDA NA VAN</div>
                         <div className={styles.moduloTextoRight}>Como construir sua própria van e viajar pelo mundo</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia5.png"></img>
-                    {/* <img className={styles.tap} src="tap.png"></img> */}
+                    {/* <img className={styles.tap} src="tap.png"></img> 
                 </div>
+                */}
 
                 <div onClick={() => openModal(2)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
@@ -87,20 +90,20 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTituloRight}>EUROPA E AMÉRICA DO SUL</div>
                         <div className={styles.moduloTextoRight}>Tudo sobre os países mais visitados da Europa e América do Sul + Imigração em Portugal</div>
                     </div>
-                    <img className={styles.imagem} height="130px" src="dia6.png"></img>
+                    <img className={styles.imagem} height="130px" src="dia3.png"></img>
                     {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
 
-                <div onClick={() => openModal(3)}  className={styles.dia}>
+                {/*<div onClick={() => openModal(3)}  className={styles.dia}>
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>VIDA NO CARRO</div>
                         <div className={styles.moduloTextoRight}>Desde como montar seu carro do zero até a vida minimalista na estrada</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia3.png"></img>
-                    {/* <img className={styles.tap} src="tap.png"></img> */}
-                </div>
+                    <img className={styles.tap} src="tap.png"></img> 
+                </div>*/}
                 
 
                 <div onClick={() => openModal(7)}  className={styles.dia}>
@@ -109,18 +112,25 @@ const Cronograma = ({queroEntrarLink}) => {
                         <div className={styles.moduloTituloRight}>DINHEIRO E CONCLUSÃO</div>
                         <div className={styles.moduloTextoRight}>Como fazer dinheiro na estrada e conclusão da imersão</div>
                     </div>
-                    <img className={styles.imagem} height="130px" src="dia7.png"></img>
+                    <img className={styles.imagem} height="130px" src="dia4.png"></img>
                     {/* <img className={styles.tap} src="tap.png"></img> */}
                 </div>
 
-                <div onClick={() => openModal(4)}  className={styles.dia}>
+                {/*<div onClick={() => openModal(4)}  className={styles.dia}>
                     <div className={styles.offline}>offline</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>AULAS GRAVADAS</div>
                         <div className={styles.moduloTextoRight}>Além de encontros ao vivo teremos conteúdo gravado :D Nesse dia disponibilizarei todas as aulas gravadas da imersão. </div>
                     </div>
+                    
                     <img className={styles.imagem} height="130px" src="dia4.png"></img>
-                    {/* <img className={styles.tap} src="tap.png"></img> */}
+                </div>*/}
+
+                <div className={styles.aulasGravadas}>
+                    <div className={styles.aulasTextWrapper}>
+                        <div className={styles.aulasTitulo}>AULAS GRAVADAS</div>
+                        <div className={styles.aulasTexto}>Além de encontros ao vivo teremos conteúdo gravado :D </div>
+                    </div>
                 </div>
 
 

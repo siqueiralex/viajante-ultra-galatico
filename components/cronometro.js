@@ -32,12 +32,12 @@ const Cronometro = ({timeLeft, hidden}) =>{
 
 
                 <div className={styles.emBreve}>
-                    A PRÓXIMA IMERSÃO VAI ABRIR EM BREVE!
+                    A PRÓXIMA IMERSÃO IRÁ ABRIR EM BREVE!
                 </div>
 
 
                 <div className={styles.avisoTelegram}>
-                    ENTRE NO GRUPO DO TELEGRAM PRA SE MANTER INFORMADO
+                    ENTRE NO NOSSO GRUPO DO TELEGRAM PRA SE MANTER INFORMADO
                 </div>
 
                 <div className={styles.telegramButtonWrapper}>

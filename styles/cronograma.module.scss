@@ -63,6 +63,53 @@
     cursor: pointer;
 }
 
+.aulasGravadas {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    max-width: 420px;
+    border-radius: 10px;
+    border: 2px dashed rgb(187,242,161);
+    margin: 20px 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aulasTextWrapper {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 3px;
+    margin-right: 6px;
+}
+
+.aulasTitulo {
+    width: 95%;
+    align-self: flex-end;
+    font-family: 'arial_black', 'Arial Black', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.aulasTexto {
+    font-family: 'arial', Helvetica, sans-serif;
+    color: $dark-blue;
+    font-size: 15px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+
 .dia:hover { 
     border-color: $dark-green;
     background-color: rgba(235,255,235,.3);
@@ -109,16 +156,16 @@
     }
 }
 @media screen and (max-width: 900px) {
-    .dias :nth-child(1) { order: 1; }
-    .dias :nth-child(2) { order: 5; }
-    .dias :nth-child(3) { order: 2; }
-    .dias :nth-child(4) { order: 6; }
-    .dias :nth-child(5) { order: 3; }
-    .dias :nth-child(6) { order: 7; }
-    .dias :nth-child(7) { order: 4; }
+    // .dias :nth-child(1) { order: 1; }
+    // .dias :nth-child(2) { order: 5; }
+    // .dias :nth-child(3) { order: 2; }
+    // .dias :nth-child(4) { order: 6; }
+    // .dias :nth-child(5) { order: 3; }
+    // .dias :nth-child(6) { order: 7; }
+    // .dias :nth-child(7) { order: 4; }
 
-    .dia :nth-child(1) {order:1}
-    .dia :nth-child(2) {order:2}
+    // .dia :nth-child(1) {order:1}
+    // .dia :nth-child(2) {order:2}
 }
 
 @media screen and (max-width: 800px) {
@@ -178,7 +225,7 @@
     50% {
         transform :translateX(-15px);
         transform :translateY(-15px);
-        transform: scale(.95);
+        transform: scale(.90);
     }
     to {
         transform : scale(1);
@@ -190,9 +237,9 @@
 
 .tap {
     position: absolute;
-    right: -8px;
-    bottom: -12px;
-    animation : pulse 1s infinite;
+    left: 8px;
+    top: 8px;
+    animation : pulse 1.2s infinite;
     opacity: .6;
     z-index: 1;
 }

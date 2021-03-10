@@ -33,7 +33,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>  
                     <h3 className={styles.motivoTitulo}> ENTRE ANTES E ECONOMIZE!</h3>
                     <p className={styles.motivoTexto}>
-                    O valor da imersão irá aumentar R$ 20 reais a cada turma. Ou seja, se a primeira turma custou R$197, a segunda irá custar R$217, a terceira R$237 e assim por diante.
+                    O valor da imersão irá aumentar a cada turma. Aproveite a oportunidade quando abrirem as turmas e garanta sua vaga :)
                     </p>
                 </div>
 

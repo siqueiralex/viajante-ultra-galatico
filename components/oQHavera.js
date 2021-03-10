@@ -21,7 +21,7 @@ Mas dessa vez eu resolvi criar uma imersão online onde vou dar uma pausa na min
                     <p>Serão 7 dias onde eu vou estar <strong>100% disponível para conversar com um número limitado de participantes</strong>. Teremos conteúdos AO VIVASSO, aulas épicas por vídeo, ebook e grupos com participantes! Fique atento porque vou ligar de surpresa para alguns participantes no meio dessa semana! Cada dia da semana teremos um conteúdo diferente sobre um modo diferente de viagem, <strong>modos que sou especialista!</strong></p> */}
                 </div>
                 <div className={styles.setedias}>
-                    <img height="350" src="/7-dias.png"></img>
+                    <img height="350" src="/4-dias.png"></img>
                 </div>
             </div>
 

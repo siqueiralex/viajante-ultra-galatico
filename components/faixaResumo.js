@@ -9,13 +9,13 @@ const FaixaResumo = () => {
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="90px" src="/telefone.svg"/>
-                <div className={styles.text}> LIGAREI PESSOALMENTE PARA 70 PARTICIPANTES PARA TIRAR DÚVIDAS</div>
+                <img src="/live.png"/>
+                <div className={styles.text}>CONTEÚDO AO VIVO TODOS OS DIAS</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
-                <img height="90px" src="/calendario.png" />
-                <div className={styles.text}>90 DIAS DE ACESSO A ESSE CONTEÚDO DELICIOSO</div>
+                <img height="110px" src="/calendario.png" />
+                <div className={styles.text}>1 ANO DE ACESSO A ESSE CONTEÚDO DELICIOSO</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
