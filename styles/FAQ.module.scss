@@ -77,9 +77,14 @@
     font-weight: bold;
     font-size: 21px;
     line-height: 24px;
-    letter-spacing: -1px;
+    // letter-spacing: -1px;
     text-align: center;
     margin: 0 auto;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .perguntaTexto {
