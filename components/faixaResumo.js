@@ -10,7 +10,7 @@ const FaixaResumo = () => {
             <span className={styles.barra}></span>
             <div className={styles.card}>
                 <img src="/live.png"/>
-                <div className={styles.text}>CONTEÚDO AO VIVO ENTRE OS DIAS 17 e 20 DE MARÇO</div>
+                <div className={styles.text}>CONTEÚDO AO VIVO ENTRE OS DIAS 17 E 20 DE MARÇO</div>
             </div>
             <span className={styles.barra}></span>
             <div className={styles.card}>
