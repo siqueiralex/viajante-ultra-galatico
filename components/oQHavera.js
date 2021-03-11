@@ -13,7 +13,7 @@ const OQHavera = ({queroEntrarLink}) => {
 Mas dessa vez eu resolvi criar uma imersão online onde vou dar uma pausa na minha viagem por 1 semana e ensinar exatamente <strong>TUDO</strong> o que sei sobre viagens!</p>
                     
                     <p>
-                    Serão 4 dias em que eu vou estar 100% disponível para conversar com um número limitado de participantes. Teremos conteúdos <strong>AO VIVASSO</strong>, aulas épicas por vídeo, ebook e grupos com participantes! Cada dia da semana teremos um conteúdo diferente sobre viagem de mochilão, que sou especialista!
+                    Serão 4 dias em que eu vou estar 100% disponível para conversar com um número limitado de participantes. Teremos conteúdos <strong>AO VIVASSO</strong>, aulas épicas por vídeo e grupos com participantes! Cada dia da semana teremos um conteúdo diferente sobre viagem de mochilão, que sou especialista!
                     </p>
                     
 
