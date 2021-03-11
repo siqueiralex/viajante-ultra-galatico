@@ -611,7 +611,7 @@ const conteudoDias = {
                         nome:"Vendas",
                         items: [
                             "O que passar durante a venda",
-                            "O porque de você está vendendo aquilo",
+                            "O porque de você estar vendendo aquilo",
                             "Melhorar a timidez",
                             "Melhorar sua vida como vendedor",
                             "Não é só por dinheiro",
@@ -645,7 +645,7 @@ const conteudoDias = {
                         nome:"Trabalhar em lugares turísticos",
                         items: [
                             "Como procurar por trabalhos",
-                            "Aonde procurar por trabalho",
+                            "Onde procurar por trabalho",
                             "O que você precisa para trabalhar",
                             "Épocas do trabalho",
                             "Porque inglês é importante nessa hora",
