@@ -476,7 +476,7 @@ const conteudoDias = {
                         items: [
                             "Como é viajar pelo Brasil",
                             "Diferença entre Brasil e outros países da América do Sul",
-                            "Lugares Brasil",
+                            "Lugares no Brasil",
                             "Porque você deve amar o Brasil",
                         ]
                     },
@@ -486,7 +486,7 @@ const conteudoDias = {
                             "Como são os Argentinos",
                             "O sotaque da Argentina",
                             "Lugares interessantes",
-                            "Roteiro Argentina",
+                            "Roteiro na Argentina",
                             "Como é chegar em Ushuaia",
                         ]
                     },
@@ -496,7 +496,7 @@ const conteudoDias = {
                             "Como são os Chilenos",
                             "O sotaque do Chile",
                             "Lugares no Chile",
-                            "Roteiro Chile",
+                            "Roteiro no Chile",
                             "O país mais caro da América do Sul",
                         ]
                     },
