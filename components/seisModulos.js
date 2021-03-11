@@ -73,7 +73,7 @@ const SeisModulos = ({queroEntrarLink}) => {
                         </div>
                         <div className={styles.textWrapper}>
                             <div className={styles.moduloTituloLeft}>AMÉRICA DO SUL E EUROPA</div>
-                            <div className={styles.moduloTextoLeft}>Tudo o que você precisa saber para viajar bem e barato pela América do Sul e Europa! + Imigração em Portugal</div>
+                            <div className={styles.moduloTextoLeft}>Tudo que você precisa saber para viajar bem e barato pela América do Sul e Europa + Imigração em Portugal!</div>
                         </div>
                     </div>
                 </div>

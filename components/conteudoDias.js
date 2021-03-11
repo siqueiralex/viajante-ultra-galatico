@@ -50,7 +50,7 @@ const conteudoDias = {
                     {
                         nome: "Transporte",
                         items: [
-                            "Introdução a carona",
+                            "Introdução à carona",
                             "Carona com avião e com barco",
                             "Tudo sobre carona terrestre",
                             "Carona no Brasil",
@@ -153,7 +153,7 @@ const conteudoDias = {
                     {
                         nome:"Aplicativos",
                         items: [
-                            "Aplicativos necessário para seu mochilão",
+                            "Aplicativos necessários para seu mochilão",
                             "O lado obscuro do Couchsurfing"
                         ]
                     },
@@ -177,7 +177,7 @@ const conteudoDias = {
                         items: [
                             "Faça câmbio no Brasil",
                             "Spread + IOF",
-                            "Estratégias de câmbio em viagem a longo prazo",
+                            "Estratégias de câmbio em viagem à longo prazo",
                         ]
                     },
                     {
@@ -463,7 +463,7 @@ const conteudoDias = {
                     {
                         nome:"América do Sul",
                         items: [
-                            "Introdução a América do Sul",
+                            "Introdução à América do Sul",
                             "Cuidados na América do Sul",
                             "Roteiros comuns",
                             "Como é a imigração",
@@ -523,22 +523,22 @@ const conteudoDias = {
                         nome:"Equador",
                         items: [
                             "Como é o Equador",
-                            "Lugares Equador",
-                            "Roteiro Equador",
+                            "Lugares no Equador",
+                            "Roteiro no Equador",
                         ]
                     },
                     {
                         nome:"Colômbia",
                         items: [
                             "Como é a Colômbia",
-                            "Lugares Colômbia",
-                            "Roteiro Colômbia",
+                            "Lugares na Colômbia",
+                            "Roteiro na Colômbia",
                         ]
                     },
                     {
                         nome:"Europa",
                         items: [
-                            "Introdução a Europa",
+                            "Introdução à Europa",
                             "Como é viajar na Europa e dicas",
                             "Explicando espaço schengen",
                             "Como é a imigração",

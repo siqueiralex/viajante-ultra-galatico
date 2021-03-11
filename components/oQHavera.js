@@ -9,7 +9,7 @@ const OQHavera = ({queroEntrarLink}) => {
             
             <div className={styles.textoWrapper}>
                 <div className={styles.texto}>
-                    <p>Eu percebi durante a pandemia que muitas pessoas abriram os olhos para o quão curta é a vida e tem que ser aproveitada, olhos que já abri 6 anos atrás e comecei a viajar o mundo para experimentar de tudo e viver a cada segundo. Desde então gravo vídeos para o Youtube mostrando como a vida é legal.
+                    <p>Eu percebi durante a pandemia que muitas pessoas abriram os olhos para o quão curta é a vida e que ela tem que  ser aproveitada, olhos que já abri 6 anos atrás e comecei a viajar o mundo para experimentar de tudo e viver a cada segundo. Desde então gravo vídeos para o Youtube mostrando como a vida é legal.
 Mas dessa vez eu resolvi criar uma imersão online onde vou dar uma pausa na minha viagem por 1 semana e ensinar exatamente <strong>TUDO</strong> o que sei sobre viagens!</p>
                     
                     <p>
