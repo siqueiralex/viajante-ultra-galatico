@@ -17,9 +17,9 @@ const FAQ = ({queroEntrarLink}) => {
 
                 <div className={styles.pergunta}>
                     
-                    <h3 className={styles.perguntaTitulo}> A QUE HORAS SERÃO AS LIVES?</h3>
+                    <h3 className={styles.perguntaTitulo}> DIA E HORÁRIO DAS LIVES</h3>
                     <p className={styles.perguntaTexto}>
-                    Todas as lives começarão às 20h (horário de Brasília) e terão uma duração de 2-3 horas cada.
+                    De 17 a 20 de março de 2021. As lives começarão às 20h (horário de Brasília) e terão uma duração média de 2 a 3 horas cada.
                     </p>
                 </div>
 
@@ -41,9 +41,9 @@ const FAQ = ({queroEntrarLink}) => {
 
                 <div className={styles.pergunta}>
                     
-                    <h3 className={styles.perguntaTitulo}> QUEM ESTÁ NA FILA DE ESPERA TEM PRIORIDADE NA COMPRA?</h3>
+                    <h3 className={styles.perguntaTitulo}> QUANDO SERÁ A PRÓXIMA TURMA?</h3>
                     <p className={styles.perguntaTexto}>
-                    Não, a fila de espera é apenas para te manter informado por email quando as inscrições estiverem abertas novamente.
+                    Como estou no México por alguns dias e depois vou para a Inglaterra, realmente não sei quando será a data exata da próxima turma.
                     </p>
                 </div>
 

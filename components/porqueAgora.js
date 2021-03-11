@@ -13,7 +13,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>
                     <h3 className={styles.motivoTitulo}> É ALGO LIMITADÍSSIMO!</h3>
                     <p className={styles.motivoTexto}>
-                    Essa imersão será feita apenas em 2021, com pouquíssimas! É realmente uma oportunidade única de aprender MUITOS conhecimentos e colocar em prática nas suas viagens futuras!
+                    Essa imersão será feita apenas em 2021, com pouquíssimas vagas! É realmente uma oportunidade única de aprender MUITOS conhecimentos e colocar em prática nas suas viagens futuras!
                     </p>
                 </div>
 
@@ -63,7 +63,7 @@ const PorqueAgora = ({queroEntrarLink}) => {
                     </div>
                     <h3 className={styles.motivoTitulo}> SE NÃO CONSEGUIR NESSA TURMA, ENTRE NA PRÓXIMA!</h3>
                     <p className={styles.motivoTexto}>
-                    Serão abertas turmas todos os meses. Se você não conseguiu nessa, a próxima turma te aguarda!
+                    Serão abertas outras turmas no futuro, mas realmente não sei quando será a próxima pois estarei em alguma aventura pela vida.
                     </p>
                 </div>
             </div>

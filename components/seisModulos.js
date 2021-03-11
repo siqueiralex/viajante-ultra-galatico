@@ -31,7 +31,7 @@ const SeisModulos = ({queroEntrarLink}) => {
                         </div>
                         <div className={styles.textWrapper}>
                             <div className={styles.moduloTituloLeft}>MOCHILÃO NORMAL</div>
-                            <div className={styles.moduloTextoLeft}>Viajar o mundo com uma mochila apenas! Aprenda sobre o incrível mundo do mochilão que pode durar por vários anos da sua vida!</div>
+                            <div className={styles.moduloTextoLeft}>Viajar o mundo com uma mochila apenas! Aprenda sobre o incrível mundo do mochilão que pode durar vários anos da sua vida!</div>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ const SeisModulos = ({queroEntrarLink}) => {
                         </div>
                         <div className={styles.textWrapper}>
                             <div className={styles.moduloTituloLeft}>MOCHILÃO NORMAL</div>
-                            <div className={styles.moduloTextoLeft}>Viajar o mundo com uma mochila apenas! Aprenda sobre o incrível mundo do mochilão que pode durar por vários anos da sua vida!</div>
+                            <div className={styles.moduloTextoLeft}>Viajar o mundo com apenas uma mochila! Aprenda sobre o incrível mundo do mochilão que pode durar por vários anos da sua vida!</div>
                         </div>
                     </div>
                 </div> */}
@@ -61,7 +61,7 @@ const SeisModulos = ({queroEntrarLink}) => {
                     <div className={styles.modulo}>
                         <div className={styles.textWrapper}>
                             <div className={styles.moduloTituloRight}>FAZER DINHEIRO NA VIAGEM </div>
-                            <div className={styles.moduloTextoRight}>Aprenda técnicas para fazer dinheiro com o cara que vendeu brigadeiro para viajar por 2 anos na Europa</div>
+                            <div className={styles.moduloTextoRight}>Aprenda técnicas para fazer dinheiro com o cara que vendeu brigadeiro por 2 anos para viajar pelo mundo.</div>
                         </div>
                         <div className={styles.image}>
                             <img height="170px" src="/cifrao.svg"></img>
@@ -80,7 +80,7 @@ const SeisModulos = ({queroEntrarLink}) => {
 
                 <div className={styles.textoFinal}>
                     <p className={styles.textoFinalAzul}>
-                    No fim da imersão você vai poder ir para qualquer lugar com uma mochila e sem dinheiro. Mas o mais importante, <strong>você vai estar preparado para começar sua carreira de viajante para ser livre por esse mundão! </strong>
+                    No fim da imersão você vai poder ir para qualquer lugar com uma mochila economizando ao máximo. E o mais importante: <strong>você vai estar preparado para começar sua carreira de viajante para ser livre por esse mundão! </strong>
                     </p>
 
                     <p className={styles.importante}>

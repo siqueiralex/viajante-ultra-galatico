@@ -17,8 +17,8 @@ const QuantoCusta = ({queroEntrarLink}) => {
                     <li>Encontros 100% ao vivo</li>
                     <li>Aulas extras gravadas</li>
                     <li>Aprenda com quem viaja o mundo há 6 anos sem parar</li>
-                    <li>+ de 15 horas de conteúdo</li>
-                    <li>90 dias de acesso ao conteúdo</li>
+                    <li>+ de 10 horas de conteúdo</li>
+                    <li>365 dias de acesso ao conteúdo</li>
         
                 </ul>
             </div>

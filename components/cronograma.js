@@ -78,7 +78,7 @@ const Cronograma = ({queroEntrarLink}) => {
                 <div className={styles.aovivo}>ao vivo</div>
                     <div className={styles.textWrapper}>
                         <div className={styles.moduloTituloRight}>MOCHILÃO NORMAL</div>
-                        <div className={styles.moduloTextoRight}>Mochilão, voluntariado, técnicas para iajar barato e com muito conforto</div>
+                        <div className={styles.moduloTextoRight}>Mochilão, voluntariado, técnicas para viajar barato e com muito conforto</div>
                     </div>
                     <img className={styles.imagem} height="130px" src="dia2.png"></img>
                     {/* <img className={styles.tap} src="tap.png"></img> */}
@@ -129,7 +129,7 @@ const Cronograma = ({queroEntrarLink}) => {
                 <div className={styles.aulasGravadas}>
                     <div className={styles.aulasTextWrapper}>
                         <div className={styles.aulasTitulo}>AULAS GRAVADAS</div>
-                        <div className={styles.aulasTexto}>Além de encontros ao vivo teremos conteúdo gravado :D </div>
+                        <div className={styles.aulasTexto}>Além de encontros ao vivo teremos conteúdo extra gravado :D</div>
                     </div>
                 </div>
 
