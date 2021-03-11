@@ -2,7 +2,7 @@
 const conteudoDias = {
     1: {
         titulo:"DIA 1: Introdução e Mochilão Roots",
-        subtitulo: "Introdução e tudo o que você precisa saber para viajar com pouco dinheiro",
+        subtitulo: "Tudo que você precisa saber para viajar com pouco dinheiro",
         
         conteudos: [
             {
@@ -17,7 +17,7 @@ const conteudoDias = {
                                 "O tempo passa diferente pra quem está na estrada",
                                 "O que acontece depois que você se torna um Viajante",
                                 "Diferença entre Turista e Viajante",
-                                "Viajante recruta (o início da sua carreira",
+                                "Viajante recruta (o início da sua carreira)",
                                 "Vamos começar do zero"
                             ]
                         }
@@ -86,8 +86,8 @@ const conteudoDias = {
                         nome: "Conclusão",
                         items: [
                             "O espírito livre do viajante ultra roots",
-                            "Até quando você consegue viajar assim até ficar cansativo",
-                            "Como eu viajei gastando de 10 a 15 reais por dia pela américa do sul ",
+                            "Quanto tempo você consegue viajar assim até ficar cansativo",
+                            "Como eu viajei gastando de 10 a 15 reais por dia pela América do Sul ",
                         ]
                     },
                     
@@ -199,7 +199,7 @@ const conteudoDias = {
                         nome:"Línguas",
                         items: [
                             "Quais línguas aprender para se virar lá fora",
-                            "Técina incrível para aprender rápido, sozinho e de graça",
+                            "Técnica incrível para aprender rápido, sozinho e de graça",
                             "O quanto você precisa aprender para se virar",
                         ]
                     },
@@ -456,14 +456,14 @@ const conteudoDias = {
                     {
                         nome:"Introdução",
                         items: [
-                            "O que conheço sobre américa do sul e Europa",
+                            "O que conheço sobre América do Sul e Europa",
                             "Vistos e burocracias",
                         ]
                     },
                     {
                         nome:"América do Sul",
                         items: [
-                            "Introdução a América do sul",
+                            "Introdução a América do Sul",
                             "Cuidados na América do Sul",
                             "Roteiros comuns",
                             "Como é a imigração",

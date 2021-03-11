@@ -4,6 +4,9 @@ import Link from 'next/link'
 const Cronometro = ({timeLeft, hidden}) =>{
     return (     
             <div hidden={hidden} className={styles.cronometro}>
+                <div className={styles.faltam}>
+                    FALTAM:
+                </div>
                 <div className={styles.countdownWrapper}>
                     <div className={styles.cronField}>
                         <div className={styles.cronNumero}>{timeLeft.days}</div>
@@ -31,21 +34,30 @@ const Cronometro = ({timeLeft, hidden}) =>{
 
 
 
-                <div className={styles.emBreve}>
-                    A PRÓXIMA IMERSÃO IRÁ ABRIR EM BREVE!
+                <div className={styles.inscricoesEm}>
+                    Inscreva-se em:
                 </div>
 
-
-                <div className={styles.avisoTelegram}>
-                    ENTRE NO NOSSO GRUPO DO TELEGRAM PRA SE MANTER INFORMADO
+                <div className={styles.data}>
+                    14/03/2021
                 </div>
 
+                <div className={styles.hora}>
+                    a partir de 08h00
+                </div>
+                
+
+                <div className={styles.vagasLimitadas}>
+                    VAGAS LIMITADÍSSIMAS!
+                </div>
+
+                {/*
                 <div className={styles.telegramButtonWrapper}>
                     <a target="_blank" href="https://t.me/joinchat/WWJQRYeMlxQKwFYh" className={styles.telegramButton}>
                     ENTRAR NO GRUPO
                     </a>
                 </div>
-
+                    */}
 
 
 

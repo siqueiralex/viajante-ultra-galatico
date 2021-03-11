@@ -146,24 +146,58 @@
     letter-spacing: 0px;
 }
 
-.emBreve{
+.inscricoesEm{
+    padding: 12px auto 5px auto;
+    text-transform: uppercase;  
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 30px;
+    margin: 25px auto 0 auto;
+}
+
+.data{
     padding: 12px;
     text-transform: uppercase;  
     font-family: 'arial';
     font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
-    margin: 25px auto;
+    font-size: 45px;
+    line-height: 40px;
+    color: $base-green;
+    margin-bottom: 0;
 }
-
-.avisoTelegram{
-    color: rgb(124,124,124);
+.hora{
+    padding: 0 12px;
+    text-transform: uppercase;  
     font-family: 'arial';
     font-weight: bold;
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 25px;
+    color: rgb(124,124,124);
+    margin: 0 auto 40px auto;
+}
+
+
+.faltam{
+    padding: 12px;
+    text-transform: uppercase;  
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    // margin: 25px auto;
+}
+
+
+.vagasLimitadas{
+    color: $light-blue;
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
     height: 100%;
-    margin: 30px auto;
+    margin: 10px auto 30px auto;
+    
 }
 
 
