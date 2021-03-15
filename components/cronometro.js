@@ -39,11 +39,11 @@ const Cronometro = ({timeLeft, hidden}) =>{
                 </div>
 
                 <div className={styles.data}>
-                    14/03/2021
+                    21/03/2021
                 </div>
 
                 <div className={styles.hora}>
-                    a partir de 08h00
+                    a partir de 11h00
                 </div>
                 
 

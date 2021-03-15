@@ -19,7 +19,7 @@ const FAQ = ({queroEntrarLink}) => {
                     
                     <h3 className={styles.perguntaTitulo}> DIA E HORÁRIO DAS LIVES</h3>
                     <p className={styles.perguntaTexto}>
-                    De 17 a 20 de março de 2021. As lives começarão às 20h (horário de Brasília) e terão uma duração média de 2 a 3 horas cada.
+                    De 24 a 27 de março de 2021. As lives começarão às 20h (horário de Brasília) e terão uma duração média de 2 a 3 horas cada.
                     </p>
                 </div>
 
