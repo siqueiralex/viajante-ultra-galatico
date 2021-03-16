@@ -17,7 +17,7 @@ import FAQ from "../components/FAQ.js"
 
 const diaAbertura = +new Date(`03/21/2021 08:00:00`);
 
-const queroEntrarLink = "https://twitter.com/josenalencar/status/1371228645138784260";
+const queroEntrarLink = "https://viainfinda.com.br";
 
 export default function Home() {
 
