@@ -27,7 +27,7 @@ const FAQ = ({queroEntrarLink}) => {
                      
                     <h3 className={styles.perguntaTitulo}>POR ONDE SERÃO TRANSMITIDAS AS LIVES?</h3>
                     <p className={styles.perguntaTexto}>
-                    As Lives serão realizadas pela plataforma Zoom.
+                    Todos os dias você receberá o link de acesso à live pelo seu e-mail. Lembre de olhar todas as caixas.
                     </p>
                 </div>
 
