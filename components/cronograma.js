@@ -30,7 +30,7 @@ const customStyles = {
     }
 };
 
-const Cronograma = ({queroEntrarLink}) => {
+const Cronograma = ({abertas, queroEntrarLink}) => {
     const [modalIsOpen, setIsOpen]= useState(false);
     const [modalContent, setModalContent]= useState(conteudoDias[1]);
 
@@ -136,7 +136,7 @@ const Cronograma = ({queroEntrarLink}) => {
 
 
             </div>
-                <BtnQueroEntrar queroEntrarLink={queroEntrarLink} className={styles.botao}/>
+                <BtnQueroEntrar abertas={abertas} queroEntrarLink={queroEntrarLink} className={styles.botao}/>
 
                     <Modal 
                     isOpen={modalIsOpen}

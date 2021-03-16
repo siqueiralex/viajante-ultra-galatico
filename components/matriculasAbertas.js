@@ -12,7 +12,7 @@ const MatriculasAbertas = ({queroEntrarLink, hidden}) => {
 
                 <div className={styles.abertoCorre}>Vagas limitadíssimas!</div>    
                 <Link href={queroEntrarLink}>
-                    <button className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </button>
+                    <a target="_blank" className={styles.abertoBotao}> ENTRE NESSE UNIVERSO </a>
                 </Link>
         </div>
 

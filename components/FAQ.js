@@ -1,7 +1,7 @@
 import styles from "../styles/FAQ.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
-const FAQ = ({queroEntrarLink}) => {
+const FAQ = ({abertas, queroEntrarLink}) => {
     return(
         <section className={styles.section}>
             <h1 className={styles.titulo}> PERGUNTAS FREQUENTES</h1>
@@ -55,7 +55,7 @@ const FAQ = ({queroEntrarLink}) => {
                     </p>
                 </div>
             </div>
-            <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
+            <BtnQueroEntrar abertas={abertas} queroEntrarLink={queroEntrarLink}/>
         </section>
     );
 

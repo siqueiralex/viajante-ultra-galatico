@@ -2,7 +2,7 @@ import styles from "../styles/OQHavera.module.scss"
 import btnStyles from "../styles/BtnQueroEntrar.module.scss"
 import BtnQueroEntrar from '../components/btnqueroentrar.js'
 
-const OQHavera = ({queroEntrarLink}) => {
+const OQHavera = ({abertas, queroEntrarLink}) => {
     return (
         <section className={styles.section}>
             <h1 className={styles.titulo}>O QUE HAVERÁ NESSE <span className={styles.bgblue}>NOVO UNIVERSO?</span></h1>
@@ -26,7 +26,7 @@ Mas dessa vez eu resolvi criar uma imersão online onde vou dar uma pausa na min
             </div>
 
             <div className={btnStyles.btnWrapper}>
-                <BtnQueroEntrar queroEntrarLink={queroEntrarLink}/>
+                <BtnQueroEntrar abertas={abertas} queroEntrarLink={queroEntrarLink}/>
             </div>
         </section>
     )

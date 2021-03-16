@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { useEffect, useState } from "react";  
+
 import styles from '../styles/Home.module.scss'
 import Header from '../components/header.js'
 import MainBanner from '../components/mainBanner.js'
@@ -13,11 +15,44 @@ import QuantoCusta from "../components/quantoCusta.js"
 import FAQ from "../components/FAQ.js"
 
 
-const diaAbertura = +new Date(`03/21/2021 8:00:00`);
+const diaAbertura = +new Date(`03/21/2021 08:00:00`);
 
-const queroEntrarLink = "#page_top";
+const queroEntrarLink = "https://twitter.com/josenalencar/status/1371228645138784260";
 
 export default function Home() {
+
+  const calculateTimeLeft = () => {  
+    const difference = diaAbertura - +new Date();
+      let timeLeft = {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+        abertas:true,
+      };
+
+      if (difference>0) {
+        timeLeft = {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+          abertas: false,
+        };
+      }
+      return timeLeft;
+    } 
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [abertas, setAbertas] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+      setAbertas(timeLeft.abertas)
+    }, 1000);
+    return () => clearTimeout(timer);
+  });
 
   return (  
     <>
@@ -26,16 +61,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <MainBanner diaAbertura={diaAbertura} queroEntrarLink={queroEntrarLink}/>
-      <Video queroEntrarLink={queroEntrarLink}/>
-      <FaixaResumo queroEntrarLink={queroEntrarLink}/>
-      <OQHavera queroEntrarLink={queroEntrarLink}/>
-      <SeisModulos queroEntrarLink={queroEntrarLink}/>
-      <Cronograma queroEntrarLink={queroEntrarLink}/>
-      <PorqueAgora queroEntrarLink={queroEntrarLink}/>
-      <SobreEliezer queroEntrarLink={queroEntrarLink}/>
-      <QuantoCusta queroEntrarLink={queroEntrarLink}/>
-      <FAQ queroEntrarLink={queroEntrarLink}/>
+      <MainBanner abertas={abertas} queroEntrarLink={queroEntrarLink} timeLeft={timeLeft}/>
+      <Video abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <FaixaResumo abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <OQHavera abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <SeisModulos abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <Cronograma abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <PorqueAgora abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <SobreEliezer abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <QuantoCusta abertas={abertas} queroEntrarLink={queroEntrarLink}/>
+      <FAQ abertas={abertas} queroEntrarLink={queroEntrarLink}/>
     
      
       <footer className={styles.footer}>
