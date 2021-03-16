@@ -3,7 +3,7 @@
 
 .footer {
   width: 100%;
-  min-height: 150px;
+  min-height: 155px;
   border-top: 1px solid #eaeaea;
   background-color: white;
   display: flex;
@@ -25,4 +25,15 @@
 
 .copyright {
   color: $dark-blue;
+}
+
+.demaisDuvidas{ 
+  font-family: 'arial';
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.email {
+  font-family: 'arial_black';
+  font-size: 1.1em;
 }

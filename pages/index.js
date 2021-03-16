@@ -39,6 +39,9 @@ export default function Home() {
     
      
       <footer className={styles.footer}>
+        <div className={styles.demaisDuvidas}>
+          Para demais dúvidas, envie um email para <a className={styles.email} target="_blank" href="mailto:contato@viainfinda.com.br">contato@viainfinda.com.br</a>
+        </div>
         <div className={styles.redesSociais}>
           <a href="https://pt-br.facebook.com/viaInfinda/" target="_blank">
             <img width="40" height="40" src="facebook.svg"></img>
