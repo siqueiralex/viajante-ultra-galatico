@@ -46,7 +46,7 @@ const Cronometro = ({timeLeft, hidden}) =>{
                     a partir de 8h00
                 </div>
                 <div className={styles.brasilia}>
-                    Horario de Brasília
+                    Horário de Brasília
                 </div>
                 
 
