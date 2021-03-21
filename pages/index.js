@@ -17,7 +17,7 @@ import FAQ from "../components/FAQ.js"
 
 const diaAbertura = +new Date(`03/21/2021 08:00:00`);
 
-const queroEntrarLink = "https://viainfinda.com.br";
+const queroEntrarLink = "https://sun.eduzz.com/756463";
 
 export default function Home() {
 
