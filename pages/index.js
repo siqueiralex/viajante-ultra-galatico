@@ -43,15 +43,15 @@ export default function Home() {
     } 
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [abertas, setAbertas] = useState(false);
+  const [abertas, setAbertas] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-      setAbertas(timeLeft.abertas)
-    }, 1000);
-    return () => clearTimeout(timer);
-  });
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setTimeLeft(calculateTimeLeft());
+  //     setAbertas(timeLeft.abertas)
+  //   }, 1000);
+  //   return () => clearTimeout(timer);
+  // });
 
   return (  
     <>
