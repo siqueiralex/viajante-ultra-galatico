@@ -20,7 +20,6 @@ const diaAbertura = +new Date(`03/21/2021 08:00:00`);
 const queroEntrarLink = "https://sun.eduzz.com/756463";
 
 export default function Home() {
-
   const calculateTimeLeft = () => {  
     const difference = diaAbertura - +new Date();
       let timeLeft = {
