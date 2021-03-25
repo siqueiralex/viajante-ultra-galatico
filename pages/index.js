@@ -17,7 +17,7 @@ import FAQ from "../components/FAQ.js"
 
 const diaAbertura = +new Date(`12/31/2021 08:00:00`);
 
-const queroEntrarLink = "https://sun.eduzz.com/756463";
+const queroEntrarLink = "#page_top";
 
 export default function Home() {
   const calculateTimeLeft = () => {  
@@ -45,13 +45,13 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [abertas, setAbertas] = useState(true);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setTimeLeft(calculateTimeLeft());
-  //     setAbertas(timeLeft.abertas)
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // });
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+      setAbertas(timeLeft.abertas)
+    }, 1000);
+    return () => clearTimeout(timer);
+  });
 
   return (  
     <>
