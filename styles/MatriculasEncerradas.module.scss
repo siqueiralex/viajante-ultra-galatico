@@ -1,0 +1,84 @@
+@import "theme";
+
+
+.matriculasEncerradas {
+    margin-top: 20px;
+    width: 360px;
+    color: $alice-blue;
+    background-color: rgb(21,17,13);
+    padding:30px 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px rgba($color: rgb(100,100,100), $alpha: 0.4) solid;
+}
+
+.encMatriculas {
+    text-transform: uppercase;
+    line-height: 38px;
+    font-family: 'arial_black';
+    font-size: 36px;
+}
+.encEncerradas {
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'arial_black';
+    font-size: 32px;
+    color: #D9594C;
+    text-align: center;
+}
+
+.encTexto {
+    padding: 12px;
+    text-transform: uppercase;  
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px auto;
+    color: rgb(124, 124, 124);
+}
+
+.encCorre {
+    padding: 12px;
+    text-transform: uppercase;  
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0px auto 10px auto;
+}
+
+.encBotao {
+    display: inline-block;
+    background-color: $base-green;
+    padding: 20px;
+    color: #FFFFFF;
+    font-family:  'moon_getheavy', 'Arial Black', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px!important;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border-radius: 50px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.encBotao:hover{
+    background-color: rgb(68, 207, 119);
+}
+
+.telegramButton{
+    display: block;
+    border-radius: 40px;
+    border-width: 0px;
+    min-width: 180px;
+    padding: 30px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px auto;
+    background-color:$base-blue;
+    color: $alice-blue;
+    cursor: pointer;
+}

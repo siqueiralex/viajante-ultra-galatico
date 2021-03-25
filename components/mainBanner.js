@@ -1,7 +1,7 @@
 import styles from '../styles/MainBanner.module.scss'
 import Cronometro from './cronometro.js'
 import MatriculasAbertas from './matriculasAbertas.js';
-
+import MatriculasEncerradas from './matriculasEncerradas.js';
 const MainBanner = ({queroEntrarLink, abertas, timeLeft}) => {
     
 
@@ -18,8 +18,9 @@ const MainBanner = ({queroEntrarLink, abertas, timeLeft}) => {
               </div>
 
               <div className={styles.cronometroWrapper}>
-                <Cronometro className={styles.cronometro} hidden={abertas? 'hidden' : ""} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
-                <MatriculasAbertas hidden={abertas ? '' : 'hidden'} queroEntrarLink={queroEntrarLink} ></MatriculasAbertas>
+                <MatriculasEncerradas></MatriculasEncerradas>
+                {/* <Cronometro className={styles.cronometro} hidden={abertas? 'hidden' : ""} timeLeft={timeLeft} queroEntrarLink={queroEntrarLink}></Cronometro>
+                <MatriculasAbertas hidden={abertas ? '' : 'hidden'} queroEntrarLink={queroEntrarLink} ></MatriculasAbertas> */}
               </div>
               
                 <div className={styles.textoImersao}>
